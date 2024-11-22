@@ -6,15 +6,33 @@
     <title>Document</title>
     <style>
     p{
-        color:aquamarine;
-        font-size: 20px;
-        border-width: 20;
-        border-color: black;
-        border-style: solid;
+        
 
+     
+    
+     
+     
+}
+
+
+
+
+
+
+
+    
+
+    
+    i{ 
+        color: darkcyan;
+        font-size: 20px;
+        border-color: black;
+        border-width: 2;
+        border-style: solid;
     }
 
-    } 
+
+    
     
 
     </style>
@@ -22,6 +40,6 @@
 <body>
  <!--property:value-->
  <p style="color:red; font-size: 40px; word-spacing: 10px ;": > Hello World </p>
- <h1 style="color: green;"> Cybrom</h1>
+ <i style="color: green;"> Cybrom</i>
 </body>
 </html>
