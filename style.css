@@ -1,6 +1,21 @@
-p{
-    color:blue;
-    border: 20px solid blue;
-    padding: 20;
-    margin: 25;
+#{
+    margin: 0PX;
+    padding: 0PX;
+}
+#Toppart{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+#toppart img{
+    width: 50px;
+    height: 50px;
+}
+#toppart nav ul{
+    display: flex;
+    gap: 50;
+}
+#toppart nav ul li{
+    list-style: none;
 }
