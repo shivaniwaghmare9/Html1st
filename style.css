@@ -2,20 +2,28 @@
     margin: 0PX;
     padding: 0PX;
 }
-#Toppart{
+#toppart{
     display: flex;
     justify-content: space-between;
-    
+    align-items: center;
+    background-color: ghostwhite;
 
 }
 #toppart img{
     width: 50px;
     height: 50px;
+    
 }
 #toppart nav ul{
     display: flex;
-    gap: 50;
+    gap: 50px;
+    list-style: none;
+    background-color: lightgrey;
 }
 #toppart nav ul li{
-    list-style: none;
+     list-style: none;
+    
+}
+#toppart nav ul li a{
+    text-decoration: none;
 }
