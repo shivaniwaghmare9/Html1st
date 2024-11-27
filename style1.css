@@ -1,0 +1,28 @@
+/#{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+#navbar{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+}
+#navbar id a{
+    text-decoration: none;
+    color: brown;
+}
+#boxes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#boxes div{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
