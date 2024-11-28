@@ -1,24 +1,29 @@
-#{
+*{
     margin: 0PX;
     padding: 0PX;
 }
 #toppart{
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: ghostwhite;
+    background-color: black;
+    border-radius: 10px;
+    margin: auto;
 
 }
 #toppart img{
     width: 100px;
     height: 100px;
+    border-radius: 100px;
     
 }
 #toppart nav ul{
     display: flex;
-    gap: 100px;
+    gap: 50px;
     list-style: none;
-    background-color: lightgrey;
+    background-color: gray;
+    font-family: "Bungee Spice", sans-serif;
 }
 #toppart nav ul li{
      list-style: none;
@@ -26,4 +31,12 @@
 }
 #toppart nav ul li a{
     text-decoration: none;
+    font-size: 25px;
+    
+}
+#toppart button{
+    
+    
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
