@@ -6,12 +6,17 @@
 }
 #toppart{
     
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: black;
+    background-color:#deb887;
     border-radius: 10px;
     margin: auto;
+    position: absolute;
+    left: 5%;
+    
+
 
 }
 #toppart img{
@@ -24,7 +29,7 @@
     display: flex;
     gap: 50px;
     list-style: none;
-    background-color: gray;
+    
     font-family: "Jaro", sans-serif;
 }
     
@@ -78,4 +83,10 @@
      width: 400px;
      height: 400px;
      
+}
+.text2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
