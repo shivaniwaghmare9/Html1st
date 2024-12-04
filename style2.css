@@ -11,6 +11,11 @@
     padding-left: 30px;
     padding-right: 60px;
     margin-top: 30px;
+    position: absolute;
+    color: white;
+}
+#top h1{
+    font-size: 50px;
 }
 #top nav ul{
     display: flex;
@@ -18,13 +23,17 @@
     align-items: center;
     gap: 40px;
     font-size: xx-large;
+    
+    
 }
 #top nav ul li{
     display: flex;
     list-style: none;
+    
 }
 #top nav ul li a{
     text-decoration: none;
+    color: white;
 }
 #top button{
     font-size: xx-large;
@@ -32,5 +41,65 @@
 #top button i{
     color: black;
 }
+#top nav ul li a:hover{
+    color: red;
+    font-size: larger;
+}
+/*----------home-----------*/
 
+#home{
+    width: 100%;
+    height: 100vh;
+    border: 1px solid black;
+    background-image: url(coffee.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
 
+}
+#home div{
+    width: 50%;
+    margin-left: 15%;
+    line-height: 50px;
+    font-size: xx-large;
+}
+#home div h1{
+    width: 50PX;
+    color: white;
+}
+#home div p{
+    color: white;
+}
+
+#home div .B1{
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    font-size: large;
+}
+#home div .B2{
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    font-size: large;
+}
+#home div .B1:hover{
+    color: red;
+    background: transparent;
+    border: 1px solid white;
+    font-size: large;
+}
+#home div .B2:hover{
+    color: red;
+    background: transparent;
+    border: 1px solid white;
+    font-size: large;
+}
+/*--------second section starts here------*/
+#second{
+       width: 100%;
+       height: 100vh;
+       border: 1px solid black;
+}
