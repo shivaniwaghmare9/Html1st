@@ -8,9 +8,29 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-    
-
+    padding-left: 30px;
+    padding-right: 60px;
+    margin-top: 30px;
+}
+#top nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    font-size: xx-large;
+}
+#top nav ul li{
+    display: flex;
+    list-style: none;
+}
+#top nav ul li a{
+    text-decoration: none;
+}
+#top button{
+    font-size: xx-large;
+}
+#top button i{
+    color: black;
 }
 
 
