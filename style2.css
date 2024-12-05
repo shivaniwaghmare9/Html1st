@@ -15,14 +15,14 @@
     color: white;
 }
 #top h1{
-    font-size: 50px;
+    font-size: 70px;
 }
 #top nav ul{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 40px;
-    font-size: xx-large;
+    font-size: 40px;
     
     
 }
@@ -55,6 +55,8 @@
     background-size: cover;
     display: flex;
     align-items: center;
+ 
+
 
 }
 #home div{
@@ -66,6 +68,7 @@
 #home div h1{
     width: 50PX;
     color: white;
+    font-size: 100px;
 }
 #home div p{
     color: white;
@@ -76,30 +79,80 @@
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 10px;
-    font-size: large;
+    font-size: 30px
 }
 #home div .B2{
     padding-top: 10px;
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 10px;
-    font-size: large;
+    font-size: 30px;
 }
 #home div .B1:hover{
     color: red;
-    background: transparent;
+    background: lightcoral;
     border: 1px solid white;
-    font-size: large;
+    font-size: 40px;
+    
 }
 #home div .B2:hover{
     color: red;
-    background: transparent;
+    background: lightgoldenrodyellow;
     border: 1px solid white;
-    font-size: large;
+    font-size: 40px;
 }
 /*--------second section starts here------*/
 #second{
        width: 100%;
        height: 100vh;
        border: 1px solid black;
+       background-size: cover;
+       display: flex;
+       align-items: center;
+      background-color:lightgoldenrodyellow;
+   
+}
+#second div{
+    width: 100%;
+    margin-left: 5%;
+    line-height: 50px;
+    font-size: xx-large;
+    
+}
+#second div h1{
+       font-size: 70px;
+}
+#second button{
+   font-size: 30px;
+   padding-top: 10px;
+   padding-left: 30px;
+   padding-right: 30px;
+   padding-bottom: 10px;
+   color: red;
+   background-color: black;
+}
+#second div img{
+    width: 800px;
+    height: 500px;
+}
+/*---------third section starts here------*/
+#third .offer{
+    width: 100%;
+    height: 100vh;
+    border: 1px solid black;
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+   
+
+}
+#third .offer div{
+    border: 1px solid black;
+    width: 400px;
+    height: 400px;
+   
+    
+   
 }
