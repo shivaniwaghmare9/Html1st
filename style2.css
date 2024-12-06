@@ -2,6 +2,8 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: "Oleo Script", system-ui;
+
 }
 #top{
     width: 100%;
@@ -13,6 +15,7 @@
     margin-top: 30px;
     position: absolute;
     color: white;
+    font-family: "Oleo Script", system-ui;
 }
 #top h1{
     font-size: 70px;
@@ -98,7 +101,7 @@
 }
 #home div .B2:hover{
     color: red;
-    background: lightgoldenrodyellow;
+    background: lightcoral;
     border: 1px solid white;
     font-size: 40px;
 }
@@ -165,6 +168,12 @@
     height: 900px;
     border: 1px solid black;
 }
+ #third .offer div .d1{
+    border: 1px solid black;
+    width: 500px;
+    height: 450px;
+}
+
     
 
 
