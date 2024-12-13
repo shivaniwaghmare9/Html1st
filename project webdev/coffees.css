@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Oleo Script", system-ui;
+
+}
+#top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 60px;
+    margin-top: 30px;
+    position: absolute;
+    color: white;
+    font-family: "Oleo Script", system-ui;
+    background-color: black;
+  
+}
+
+    
+
+#top h1{
+    border: 1px solid white;
+    background-color:red;
+    font-size: 70px;
+    border-radius: 100%;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    transition: all 2s ease;
+
+
+}
+#top nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 40px;
+   
+   
+    
+    
+}
+#top nav ul li{
+    display: flex;
+    list-style: none;
+    
+}
+#top nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    transition: all 2s ease;
+}
+#top h1:hover{
+    border-radius: 100%;
+    background-color: transparent;
+}
+#top nav ul li a:hover{
+    color: white;
+    font-size: larger;
+   background-color: red;
+   
+    
+}
+#top h2{
+    font-size: 30px;
+}
+/*------header section end-----*/
+#trio{
+    width: 100%;
+    height: 100vh;
+    border: 1px solid black;
+ }
+#trio div h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+ }
