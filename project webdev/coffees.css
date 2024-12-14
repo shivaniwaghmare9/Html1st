@@ -13,7 +13,7 @@
     padding-left: 30px;
     padding-right: 60px;
     margin-top: 30px;
-    position: absolute;
+   /* position: absolute;*/
     color: white;
     font-family: "Oleo Script", system-ui;
     background-color: black;
@@ -82,18 +82,40 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    flex-wrap: wrap;
+ 
 }
 
 
-#menu  div h1{
+#menu .cfs div{
+    width: 700px;
+    height: 500px;
+    border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 100px;
+    gap: 30px; 
+    
    
-}#menu  div p{
-    font-size: 50px;
 }
+#menu .items div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 70px;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+}
+#menu .cfs div video{
+    width: 700px;
+    height: 500px;
+}
+
+
+
+
+    
+
 
 
