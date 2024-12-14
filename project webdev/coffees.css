@@ -17,7 +17,6 @@
     color: white;
     font-family: "Oleo Script", system-ui;
     background-color: black;
-  
 }
 
     
@@ -74,15 +73,27 @@
 #top h2{
     font-size: 30px;
 }
+
 /*------header section end-----*/
-#trio{
+#menu{
     width: 100%;
     height: 100vh;
     border: 1px solid black;
- }
-#trio div h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 70px;
- }
+    
+}
+
+
+#menu  div h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+   
+}#menu  div p{
+    font-size: 50px;
+}
+
+
