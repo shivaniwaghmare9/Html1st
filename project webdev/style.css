@@ -30,6 +30,7 @@
     padding-right: 30px;
     padding-bottom: 10px;
     transition: all 2s ease;
+   
 
 
 }
@@ -97,6 +98,7 @@
     width: 50PX;
     color: white;
     font-size: 100px;
+    text-shadow: 15px 15px 20px  brown;
     
 }
 #home div p{
@@ -164,6 +166,8 @@
 }
 .shop h1{
     font-size: 100px;
+    text-shadow: 15px 15px 20px grey;
+
   
 }
 .shop h2{
