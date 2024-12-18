@@ -1,0 +1,153 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Oleo Script", system-ui;
+    scroll-behavior: smooth;
+
+}
+#top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 60px;
+    margin-top: 30px;
+    position: absolute;
+    color: white;
+    flex-wrap: wrap;
+    background-color: black;
+  
+}
+
+    
+
+#top h1{
+    border: 1px solid white;
+    background-color:red;
+    font-size: 70px;
+    border-radius: 100%;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    transition: all 2s ease;
+   
+
+
+}
+#top nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 40px;
+   
+}
+#top nav ul li{
+    display: flex;
+    list-style: none;
+    
+}
+#top nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    transition: all 2s ease;
+}
+#top h1:hover{
+    border-radius: 100%;
+    background-color: transparent;
+}
+#top nav ul li a:hover{
+    color: white;
+    font-size: larger;
+   background-color: red;
+}
+#top h2{
+    font-size: 30px;
+    transition: all 2s ease;
+   
+}
+#top h2:hover{
+   color: brown;
+   font-size: 40px;
+}
+#contact {
+     width: 100%;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      font-size: 40px;
+      padding-bottom: 50px;
+      flex-direction: column;
+  }
+  #contact   div input{
+      width:800px;
+      height:7vh;
+      font-size: 30px;
+      border-radius: 50px;
+      padding-left: 20px;
+      background-color: antiquewhite;
+  }
+  
+  #contact h1{
+      color: brown;
+      text-shadow: 15px 15px 10px lightslategray;
+     
+  }
+  #contact h2{
+      width: 300px;
+      padding-left: 85px;
+      color: white;
+      font-size: 50px;
+      border-radius: 100px;
+      border: 1px solid black;
+      background-color: brown;
+    
+  }
+  #contact h2:hover{
+      background-color: aliceblue;
+      color: brown;
+  }
+  /*---------main section end-------*/
+  /*--------footer starts here-----*/
+  #connect{
+      width: 100%;
+      height: 50vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+       background-color: lightslategray;
+  }
+  #connect h3 i{
+     background-color: aliceblue;
+     padding-top: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-bottom: 10px;
+       border-radius: 100%;
+       font-size: 50px;
+  }
+  #connect h3 i:hover{
+      color: brown;
+  }
+  #connect h1 i{
+     color: antiquewhite;
+     transition: all 4s ease-in;
+  }
+  #connect h1 i:hover{
+      color: brown;
+  }
+  #connect center div input{
+      width:800PX;
+      height:7vh;
+      font-size: 30px;
+  }
+

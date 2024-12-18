@@ -3,6 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: "Oleo Script", system-ui;
+    scroll-behavior: smooth;
 
 }
 #top{
@@ -15,7 +16,8 @@
     margin-top: 30px;
     position: absolute;
     color: white;
-    font-family: "Oleo Script", system-ui;
+    flex-wrap: wrap;
+  
 }
 
     
@@ -41,9 +43,6 @@
     gap: 20px;
     font-size: 40px;
    
-   
-    
-    
 }
 #top nav ul li{
     display: flex;
@@ -67,12 +66,18 @@
     color: white;
     font-size: larger;
    background-color: red;
-   
-    
 }
 #top h2{
     font-size: 30px;
+    transition: all 2s ease;
+   
 }
+#top h2:hover{
+   color: brown;
+   font-size: 40px;
+}
+
+
 /*----------home-----------*/
 
 #home{
@@ -83,6 +88,7 @@
      background-size: cover;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
  
 
 
@@ -134,7 +140,7 @@
 }
 /*--------second section starts here------*/
 #second .about{
-       width: 100%;
+      /* width: 100%;*/
        padding-top: 70px;
        /*border: 1px solid black;*/
        background-size: cover;
@@ -201,9 +207,9 @@
 /*----------second section ends here------*/
 /*---------third section starts here------*/
 #third .offer{
-    width: 100%;
+      /*width: 100%;
         height: 100vh; 
-      /* border: 1px solid black;*/
+     border: 1px solid black;*/
        background-size: cover;
        display: flex;
        justify-content: center;
@@ -432,6 +438,7 @@
     justify-content: center;
     align-items: center;
     font-size: 70px;
+    padding-top: 50PX;
 }
 #scrollbar .slider div img{
     width: 500px;
@@ -449,7 +456,7 @@
 /*----------scrollbar end--------------*/
 /*--------fourth section starts here-----*/
 #fourth div {
-    width: 100%; 
+     width: 100%; 
     height: 100vh;
    /* border: 1px solid black;*/
     display: flex;
@@ -464,6 +471,96 @@
    
 }
 /*--------fourth section end--------*/
+/*--------fifth section starts here-----*/
+#contact {
+  /* width: 100%;
+    height: 100vh;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 40px;
+    padding-bottom: 50px;
+    flex-direction: column;
+}
+#contact   div input{
+    width:800px;
+    height:7vh;
+    font-size: 30px;
+    border-radius: 50px;
+    padding-left: 20px;
+    background-color: antiquewhite;
+}
+
+#contact h1{
+    color: brown;
+    text-shadow: 15px 15px 10px lightslategray;
+   
+}
+#contact h2{
+    width: 300px;
+    padding-left: 85px;
+    color: white;
+    font-size: 50px;
+    border-radius: 100px;
+    border: 1px solid black;
+    background-color: brown;
+  
+}
+#contact h2:hover{
+    background-color: aliceblue;
+    color: brown;
+}
+/*---------main section end-------*/
+/*--------footer starts here-----*/
+#connect{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     background-color: lightslategray;
+}
+#connect h3 i{
+   background-color: aliceblue;
+   padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+     border-radius: 100%;
+     font-size: 50px;
+}
+#connect h3 i:hover{
+    color: brown;
+}
+#connect h1 i{
+   color: antiquewhite;
+   transition: all 4s ease-in;
+}
+#connect h1 i:hover{
+    color: brown;
+}
+#connect center div input{
+    width:800PX;
+    height:7vh;
+    font-size: 30px;
+}
+@media  (max-width:450px){
+    #top nav ul{
+        display: none;
+
+    }
+    
+}
+
+    
+    
+     
+
+
+
+
+
 
 
 
