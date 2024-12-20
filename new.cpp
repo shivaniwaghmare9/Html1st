@@ -23,6 +23,7 @@ int main() {
         cout<<endl;
     }
 }*/
+
 // Online C++ compiler to run C++ program online
 #include <iostream>
 using namespace std;
@@ -38,10 +39,12 @@ int main() {
              arr[j]=-1;
              dup=true;
          }
-     }
+     
      if(!dup  && arr[i]!=-1)
      {
          cout<<arr[i];
      }
  }
 }
+
+c:\Users\HP-PC\Desktop\c++ programs\mini max array.txt
