@@ -47,4 +47,19 @@ int main() {
  }
 }
 
-c:\Users\HP-PC\Desktop\c++ programs\mini max array.txt
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+int main() {
+ int arr[]={1,2,1,3,3};
+ for(int i=0; i<5/2; ++i)
+ {
+    if(arr[i]!=arr[5-i-1])
+    {
+      cout<<"not palin";
+      return 0;
+    }
+     
+}
+cout<<"pallindrome";
+}
