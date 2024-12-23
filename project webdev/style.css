@@ -152,6 +152,7 @@
        flex-wrap: wrap;
        /*background-color:lightgoldenrodyellow; */
       /*gap:10px;*/
+      overflow: hidden !important;
 
       
    
@@ -745,8 +746,9 @@
         gap: 10px;
     }
     #second .about div video{
-        width: 400px;
-        height: 600px;
+        width: 425px;
+        height: 400px;
+        padding-left: 15px;
     }
     /*------------second section end----
     ------------third section starts here*/
@@ -761,6 +763,7 @@
         /*background-color:lightgoldenrodyellow;*/
         gap: 3px;
         flex-direction: column;
+        overflow: hidden !important;
        
   }
  /* #third .offer .after-header br{
@@ -773,6 +776,7 @@
     flex-direction: column;
     padding-left: 20px;
      padding-right: 20px;
+     overflow: hidden !important;
     }
     #third .offer .after-header div:hover{
         display: none;
@@ -785,7 +789,8 @@
       width: auto;
       height: auto;
       border: none;
-      font-size: 30px;
+      font-size: 20px;
+      overflow: hidden !important;
      
  }
   
@@ -1030,8 +1035,13 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: 10px;
+    font-size: 18px;
     flex-wrap: wrap;
+    background-color: lightblue;
+    overflow: hidden !important;
+}
+#fourth div br{
+    display: none;
 }
 
 #contact {
@@ -1044,10 +1054,12 @@
     font-size: 20px;
     padding-bottom: 50px;
     flex-direction: column;
+    background-color: lightsteelblue;
+    overflow: hidden !important;
 }
 #contact   div input{
     width:150px;
-    height:15vh;
+    height:7vh;
     font-size: 10px;
    /* border-radius: 50px;*/
     padding-left: 20px;
@@ -1080,13 +1092,14 @@
 /*---------main section end-------*/
 /*--------footer starts here-----*/
 #connect{
-    width: 100%;
-    height: 100vh;
+    width: 450px;
+    height: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
      background-color: lightslategray;
      flex-direction: column;
+     overflow: hidden !important;
 }
 
 
@@ -1098,7 +1111,7 @@
    padding-top: 7px;
     padding-left: 10px;
     padding-right: 10px;
-    padding-bottom: 7px;
+   padding-bottom: 7px; 
      border-radius: 50%;
      font-size: 20px;
      color: black;
@@ -1112,15 +1125,21 @@
    transition: all 3s ease-in;
    font-size: small;
    
-  
-
+}
+#connect h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 30px; 
 }
 #connect h1 i:hover{
     color: brown;
 }
 #connect center div input{
     width:100PX;
-    height:15vh;
+    height:auto;
     font-size: 10px;
   
 }
