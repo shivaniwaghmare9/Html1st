@@ -63,3 +63,47 @@ int main() {
 }
 cout<<"pallindrome";
 }
+========acending desending==========
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+int main() {
+    
+    int arr[]={1,2,3,4,5};
+    for(int i=0; i<4; ++i)
+    {
+        if(arr[i] >arr[i+1])
+        {
+             cout<<"no"<<endl;
+             return 0;
+        }
+    }   
+    cout<<"asending";
+}
+int arr[]={1,0,2,3,0};
+    for(int i=0; i<4; ++i)
+    {
+        if(arr[i] >arr[i+1])
+        {
+             cout<<"no"<<endl;
+             return 0;
+        }
+    }   
+    cout<<"asending";
+}
+<==========missing number=======>
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+int main() {
+    int arr[]={1,3,5,7};
+    for(int i=0; i<4; ++i)
+    {
+        if(arr[i+1]-arr[i]>1)
+        {
+           // cout<<++arr[i]<<endl;
+            //or
+        cout<<arr[i]+1<<endl;
+        }
+    }
+}
