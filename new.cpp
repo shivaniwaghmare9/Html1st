@@ -107,4 +107,55 @@ int main() {
         }
     }
 }
+// Online C++ compiler to run C++ program online
+//keeping first occursion
+#include <iostream>
+using namespace std;
+int main() {
+   int arr[]={10,20,5,9,10};
+   for(int i=0;i<5;++i)
+   {
+       for(int j=i+1;j<5;++j)
+       {
+           if(arr[i]==arr[j])
+           {
+               arr[j]=-1;
+           }
+       }
+   }
+   for(int i=0;i<5;++i)
+   {
+       if(arr[i]!=-1)
+       {
+           cout<<arr[i]<<endl;
+       }
+   }
+}
+// Online C++ compiler to run C++ program online
+//remove of 10
+#include <iostream>
+using namespace std;
+int main() {
+  int arr[]={10,20,5,9,10};
+  int remov=10;
+  int j=0;
+ 
+  for(int i=0;i<5;++i)
+  {
+      if(arr[i]!=remov)
+      {
+          arr[j]=arr[i];
+          j++;
+      }
+  }
+  for(int i=0;i<j;++i)
+  {
+      cout<<arr[i];
+  }
+}
+      
+      
+  
+  
+
 
