@@ -558,7 +558,7 @@
 @media  (max-width:450px){
     
     #top{
-        width: 100%;
+        width: 450px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -572,7 +572,7 @@
     }
     #bars{
         position: absolute;
-        top: 5%;
+        top: 6%;
         right: 5%;
         font-size: 40px;
         color: aliceblue;
@@ -592,9 +592,9 @@
     #inp:checked~#top nav ul{
         display: block;
         position: absolute;
-        top: 50px;
+        top: 0px;
         right: 0%;
-        padding: 20px;
+        padding: 0px;
         border-radius: 10px;
        background-color: black;
      
@@ -602,11 +602,15 @@
 
     #inp:checked~#top #logo{
         display: block;
+        position: absolute;
+        top: 0px;
+        right: 0%;
+        
     }
     #top h1{
         border: 1px solid white;
         background-color:red;
-        font-size: 20px;
+        font-size: 30px;
         border-radius: 100%;
         padding-top: 10px;
         padding-left: 30px;

@@ -1,5 +1,5 @@
 // Online C++ compiler to run C++ program online
-/*#include <iostream>
+#include <iostream>
 using namespace std;
 int main() {
     for(int i=1;i<=5; ++i)
@@ -22,7 +22,7 @@ int main() {
         }
         cout<<endl;
     }
-}*/
+}
 
 // Online C++ compiler to run C++ program online
 #include <iostream>
@@ -91,7 +91,7 @@ int arr[]={1,0,2,3,0};
     }   
     cout<<"asending";
 }
-<==========missing number=======>
+//==========missing number=======
 // Online C++ compiler to run C++ program online
 #include <iostream>
 using namespace std;
@@ -107,3 +107,4 @@ int main() {
         }
     }
 }
+
