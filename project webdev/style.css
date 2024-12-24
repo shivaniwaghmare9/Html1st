@@ -18,6 +18,8 @@
     position: absolute;
     color: white;
     flex-wrap: wrap;
+    overflow: hidden !important;
+  
   
 }
 
@@ -91,6 +93,7 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    overflow: hidden !important;
  
 
 
@@ -549,11 +552,14 @@
     height:7vh;
     font-size: 30px;
 }
+#inp{
+    display: none;
+}
 /*--------@media starts here-----*/
 @media  (max-width:450px){
     
-   #top{
-        width: 450px;
+    #top{
+        width: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -562,91 +568,42 @@
         margin-top: 30px;
         position: absolute;
         color: white;
-        flex-wrap: wrap;
-       overflow: hidden !important;
-        
-      
-    }
-    /*#top nav ul{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: none;
-        font-size: 30px;
-       
-    }*/
-    
-    /*#top nav ul li a{
-        text-decoration: none;
-        color: white;
-        padding-top: 30px;
-        padding-left: 30px;
-        padding-right: 30px;
-        padding-bottom: 10px;
-        transition: all 2s ease;
-    }*/
-    #top h1:hover{
-        border-radius: 100%;
-        background-color: transparent;
-    }
-    #top nav ul li a:hover{
-        color: white;
-        font-size: small;
-       background-color: red;
-    }
-    #top h2 a{
-        font-size: 30px;
-        transition: all 2s ease;
-        color: white;
-       
-    }
-    #top h2 a:hover{
-       color: brown;
-      
+        font-family: "Oleo Script", system-ui;
+        background-color: black;
     }
     #bars{
         position: absolute;
-        top: 12%;
+        top: 5%;
         right: 5%;
         font-size: 40px;
         color: aliceblue;
         z-index: 50;
     }
-    #top h2{
-        display: none;
-    }
     #top nav ul{
         display: none;
 
     }
-    #top nav ul{
-        font-size: 20px;
+    #logo{
+        display: none;
     }
-    #inp:checked~#top nav ul {
+    #top nav ul{
+        font-size: 10px;
+    }
+   
+    #inp:checked~#top nav ul{
         display: block;
         position: absolute;
-        top: 30px;
-        left: 40px;
+        top: 50px;
+        right: 0%;
         padding: 20px;
         border-radius: 10px;
-        line-height: 30px;
+       background-color: black;
      
     }
-    #home{
-        width: 450px;
-        height: 100vh;
-        border: 1px solid black;
-        background-image: url(./images/font\ page.jpeg);
-         background-size: cover;
-        display: flex;
-        align-items: center;
-        flex-wrap: wrap;
-        overflow: hidden !important;
-     
-    
-    
+
+    #inp:checked~#top #logo{
+        display: block;
     }
-    
     #top h1{
         border: 1px solid white;
         background-color:red;
@@ -657,13 +614,29 @@
         padding-right: 30px;
         padding-bottom: 10px;
         transition: all 2s ease;
+    
+    
     }
+    /*------top media end-----*/
+    #home{
+        width: 450px;
+        height: 100vh;
+        border: 1px solid black;
+        background-image: url(./images/font\ page.jpeg);
+         background-size: cover;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        overflow: hidden !important;
+       
+     }
+    
     
    
     #home div h1{
         width: 20PX;
         color: white;
-        font-size: 40px;
+        font-size: 50px;
         text-shadow: 15px 15px 20px  brown;
        
         
@@ -735,7 +708,7 @@
         gap: 10px;
     }
     #second .about div video{
-        width: 425px;
+        width: 450px;
         height: 400px;
         padding-left: 15px;
         overflow: hidden !important;
@@ -745,7 +718,7 @@
     /*------------second section end----
     ------------third section starts here*/
     #third .offer{
-        /*width: 100%;*/
+        width: 450px;
           height: auto;
         /* border: 1px solid black;*/
          background-size: cover;
@@ -993,6 +966,8 @@
 }
 #scrollbar{
     background-color: lightcyan;
+    width: 450px;
+    overflow: hidden !important;
 }
 #scrollbar .slider{
    display: grid;
