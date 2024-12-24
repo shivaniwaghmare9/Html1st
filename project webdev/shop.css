@@ -89,6 +89,7 @@
     align-items: center;
     gap: 30px;
    
+   
 }
 #shop div{
    /* width: 800px;
@@ -137,4 +138,158 @@
     font-size: 30px;
 }
 
+#inp{
+    display: none;
+}
+@media (max-width:450px){
+    #top{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 30px;
+        padding-right: 60px;
+        margin-top: 0px;
+        position: absolute;
+        color: white;
+        font-family: "Oleo Script", system-ui;
+        background-color: black;
+    }
+    #bars{
+        position: absolute;
+        top: 0;
+        right: 5%;
+        font-size: 40px;
+        color: aliceblue;
+        z-index: 50;
+    }
+    #top nav ul{
+        display: none;
+
+    }
+    #logo{
+        display: none;
+    }
+    #top nav ul{
+        font-size: 10px;
+    }
+   
+    #inp:checked~#top nav ul{
+        display: block;
+        position: absolute;
+        top: 50px;
+        right: 0%;
+        padding: 20px;
+        border-radius: 10px;
+       background-color: black;
+     
+    }
+
+    #inp:checked~#top #logo{
+        display: block;
+    }
+    #top h1{
+        border: 1px solid white;
+        background-color:red;
+        font-size: 20px;
+        border-radius: 100%;
+        padding-top: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 10px;
+        transition: all 2s ease;
+    
+    
+    }
+    #shop{
+        width: 450px;
+         /* border: 1px solid black;*/
+         height: auto;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         gap: 0px;
+         flex-direction: column;
+         overflow: hidden !important;
+         background-color: bisque;
+         
+       
+     }
+     #shop div br{
+        display: none;
+     }
+     
+     
+     #shop div h1{
+         width: 400px;
+         height: 300px;
+        /* border: 1px solid black;*/
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         font-size: 30px;
+         padding-left: 25px;
+
+         
+     }
+     #shop div img{
+        width: 425px;
+        height: 400px;
+      margin-bottom: 40px;
+      
+       
+     }
+    #connect{
+        width: 450px;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+         background-color: lightslategray;
+         flex-direction: column;
+         overflow: hidden !important;
+    }
+    
+    
+    #connect br{
+        display: none;
+    }
+    #connect h3 i {
+       background-color: aliceblue;
+       padding-top: 7px;
+        padding-left: 10px;
+        padding-right: 10px;
+       padding-bottom: 7px; 
+         border-radius: 50%;
+         font-size: 20px;
+         color: black;
+    }
+    
+    #connect h3 i:hover{
+        color: brown;
+    }
+    #connect h1 i{
+       color: antiquewhite;
+       transition: all 3s ease-in;
+       font-size: small;
+       
+    }
+    #connect h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 30px;
+        padding-bottom: 30px; 
+    }
+    #connect h1 i:hover{
+        color: brown;
+    }
+    #connect center div input{
+        width:100PX;
+        height:auto;
+        font-size: 10px;
+      
+    }
+}
     

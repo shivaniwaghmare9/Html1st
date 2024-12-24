@@ -17,6 +17,7 @@
     color: white;
     font-family: "Oleo Script", system-ui;
     background-color: black;
+    overflow: hidden !important;
   
 }
 
@@ -195,9 +196,28 @@
 /*------@media starts here-----*/
 
 @media (max-width :450px){
+    #top{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 30px;
+        padding-right: 60px;
+        margin-top: 0px;
+        position: absolute;
+        color: white;
+        font-family: "Oleo Script", system-ui;
+        background-color: black;
+        overflow: hidden !important;
+      
+    }
+
+    
+    
+    
     #bars{
         position: absolute;
-        top: 12%;
+        top: 5%;
         right: 5%;
         font-size: 40px;
         color: aliceblue;
@@ -235,7 +255,7 @@
     } 
     #about-html .about{
        /* width: 100%;*/
-        padding-top: 50px;
+        height: auto;
         /*border: 1px solid black;*/
         background-size: cover;
         display: flex;
@@ -243,23 +263,29 @@
         align-items: center;
         flex-wrap: wrap;
         /*background-color:lightgoldenrodyellow; */
-      /* gap: 10px;*/
+       gap: none;
        flex-direction: column;
+     background-color: lemonchiffon;
+     
     }
+    
     #about-html .about div{
         /* border: 1px solid black;*/
          width: 450px;
-         height: 600px;
+         height: 400px;
+         
      }
     #about-html .about div video{
          width: 450px;
-         height: 500px;
-        /* padding-top: 150px;*/
-        padding-bottom: 100px;
+         height: 400px;
+         margin-bottom: 40px;
+        
+       
+        
     }
     
     .shop h1{
-        font-size: 50px;
+        font-size: 40px;
         text-shadow: 25px 25px 20px  grey;
 
 
@@ -284,13 +310,14 @@
 }
 /*-------trasition starts hera-----*/
 #trasition {
-    /*width: 100%;
-    height: 100vh;
-    border: 1px solid black;*/
+    /*width: 100%;*/
+    height: auto;
+   /* border: 1px solid black;*/
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    margin-top: 20px;
    
    
  }
@@ -304,14 +331,16 @@
  #trasition div video{
     width: 450px;
  }
+ /*-------footer starts-------*/
  #connect{
-    width: 100%;
-    height: 100vh;
+    width: 450px;
+    height: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
      background-color: lightslategray;
      flex-direction: column;
+     overflow: hidden !important;
 }
 
 
@@ -323,7 +352,7 @@
    padding-top: 7px;
     padding-left: 10px;
     padding-right: 10px;
-    padding-bottom: 7px;
+   padding-bottom: 7px; 
      border-radius: 50%;
      font-size: 20px;
      color: black;
@@ -337,15 +366,22 @@
    transition: all 3s ease-in;
    font-size: small;
    
-  
-
+}
+#connect h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 30px; 
 }
 #connect h1 i:hover{
     color: brown;
 }
 #connect center div input{
     width:100PX;
-    height:15vh;
+    height:auto;
     font-size: 10px;
+  
 }
 }
