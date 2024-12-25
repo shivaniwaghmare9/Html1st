@@ -556,6 +556,14 @@
 }
 /*--------@media starts here-----*/
 @media  (max-width:450px){
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: "Oleo Script", system-ui;
+       scroll-behavior: smooth;
+    
+    }
     #top{
         width: 450px;
         display: flex;
@@ -568,11 +576,12 @@
         color: white;
         font-family: "Oleo Script", system-ui;
         background-color: black;
+      
     }
     #bars{
         position: absolute;
-        top: 7%;
-        right: 5%;
+        top: 6%;
+        right: 7%;
         font-size: 40px;
         color: aliceblue;
         z-index: 50;
@@ -582,10 +591,8 @@
 
     }
    
-    #top h2{
-        font-size: 10px;
-        margin-right: 25px;
-
+    #top #logo{
+        display: none;
     }
     #top nav ul{
         font-size: 10px;
@@ -595,7 +602,7 @@
         display: block;
         position: absolute;
         top: 50px;
-        right:0%;
+        right:1%;
         padding: 20px;
         border-radius: 10px;
        background-color: black;
@@ -622,24 +629,25 @@
         height: 100vh;
         border: 1px solid black;
         background-image: url(./images/font\ page.jpeg);
-       /*  background-size: cover;*/
+       /* background-size: cover;*/
         display: flex;
         align-items: center;
         flex-wrap: wrap;
         overflow: hidden !important;
-     
-    
-    
+    }
+    #home .background-image{
+        width: 450px;
+        
     }
     #home div{
         width: 400px;
-        margin-left: 0%;
+        margin-left: 5%;
         line-height: 30px;
-        font-size: xx-large;
+        font-size: large;
         
     }
     #home div h1{
-        width: 50PX;
+       /* width: 40PX;*/
         color: white;
         font-size: 70px;
         text-shadow: 15px 15px 20px  brown;
@@ -741,8 +749,8 @@
     #third .offer{
         width: 450px;
           height: auto;
-        /* border: 1px solid black;*/
-         background-size: cover;
+        /* border: 1px solid black;
+         background-size: cover;*/
          display: flex;
          justify-content: center;
          flex-wrap: wrap;
