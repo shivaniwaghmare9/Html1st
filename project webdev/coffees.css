@@ -79,6 +79,9 @@
     color: brown;
    
  }
+ #inp{
+    display: none;
+ }
 
 /*------header section end-----*/
 /*--------main section starts----*/
@@ -191,7 +194,7 @@
         position: absolute;
         color: white;
         font-family: "Oleo Script", system-ui;
-        background-color: black;
+        /*background-color: black;*/
         flex-wrap: wrap;
         margin-bottom: 40px;
     }
@@ -246,21 +249,21 @@
        
         
     }
+    
     #top h2{
-        display: none;
-    }
-    #top h2{
-        font-size: 30px;
+        font-size: 20px;
         transition: all 2s ease;
+        margin-right: 25px;
+        color: brown;
     }
     #top h2:hover{
-        color: brown;
+        color:darkcyan;
        
      }
 
      #bars{
         position: absolute;
-        top: 5%;
+        top: 0%;
         right: 5%;
         font-size: 40px;
         color: aliceblue;
@@ -277,13 +280,14 @@
     #inp:checked~#top nav ul{
         display: block;
         position: absolute;
-        top: 30px;
-        left: 40px;
+        top: 50px;
+        right: 0px;
         padding: 20px;
         border-radius: 10px;
-        line-height: 30px;
+      background-color: black;
      
     }
+   
    /* #top h1{
         border: 1px solid white;
         background-color:red;

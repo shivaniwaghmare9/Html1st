@@ -150,6 +150,9 @@
       height:7vh;
       font-size: 30px;
   }
+  #inp{
+    display: none;
+  }
   @media (max-width:450px){
     #top{
         width: 100%;
@@ -166,8 +169,8 @@
     }
     #bars{
         position: absolute;
-        top: 5%;
-        right: 5%;
+        top: 0%;
+        right: 3%;
         font-size: 40px;
         color: aliceblue;
         z-index: 50;
@@ -176,6 +179,10 @@
         display: none;
 
     }
+    #top h2{
+        font-size: 20px;
+        margin: 15px;
+    }
     #top nav ul{
         font-size: 10px;
     }
@@ -183,11 +190,11 @@
     #inp:checked~#top nav ul{
         display: block;
         position: absolute;
-        top: 30px;
-        left: 40px;
-        padding: 20px;
+        top: 50px;
+        right: 0px;
+         padding: 20px;
         border-radius: 10px;
-        line-height: 30px;
+       background-color: black;
      
     }
     #top h1{
@@ -232,7 +239,7 @@
       #contact h1{
           color: brown;
           text-shadow: 15px 15px 10px lightslategray;
-          padding-top: 20px;
+          padding-top: 25px;
          
       }
       #contact h2{

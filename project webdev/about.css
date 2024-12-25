@@ -17,7 +17,7 @@
     color: white;
     font-family: "Oleo Script", system-ui;
     background-color: black;
-    overflow: hidden !important;
+ 
   
 }
 
@@ -193,6 +193,9 @@
     height:7vh;
     font-size: 30px;
 }
+#inp{
+    display: none;
+}
 /*------@media starts here-----*/
 
 @media (max-width :450px){
@@ -208,16 +211,10 @@
         color: white;
         font-family: "Oleo Script", system-ui;
         background-color: black;
-        overflow: hidden !important;
-      
     }
-
-    
-    
-    
     #bars{
         position: absolute;
-        top: 5%;
+        top: 0;
         right: 5%;
         font-size: 40px;
         color: aliceblue;
@@ -227,19 +224,29 @@
         display: none;
 
     }
+   
+    #top h2{
+        font-size: 20px;
+        margin-right: 25px;
+        color: darkred;
+    }
     #top nav ul{
         font-size: 10px;
     }
+   
     #inp:checked~#top nav ul{
         display: block;
         position: absolute;
-        top: 30px;
-        left: 40px;
+        top: 50px;
+        right: 0%;
         padding: 20px;
         border-radius: 10px;
-        line-height: 30px;
+       background-color: black;
+       line-height: 0%;
      
     }
+
+    
     #top h1{
         border: 1px solid white;
         background-color:red;
@@ -252,9 +259,9 @@
         transition: all 2s ease;
     
     
-    } 
+    }
     #about-html .about{
-       /* width: 100%;*/
+        width: 450px;
         height: auto;
         /*border: 1px solid black;*/
         background-size: cover;
@@ -262,10 +269,9 @@
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        /*background-color:lightgoldenrodyellow; */
        gap: none;
        flex-direction: column;
-     background-color: lemonchiffon;
+       background-color: lemonchiffon;
      
     }
     
@@ -273,6 +279,7 @@
         /* border: 1px solid black;*/
          width: 450px;
          height: 400px;
+         gap: 0px;
          
      }
     #about-html .about div video{

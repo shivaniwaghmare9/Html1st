@@ -17,7 +17,7 @@
     position: absolute;
     color: white;
     flex-wrap: wrap;
-    overflow: hidden !important;
+   
   
   
 }
@@ -556,7 +556,6 @@
 }
 /*--------@media starts here-----*/
 @media  (max-width:450px){
-    
     #top{
         width: 450px;
         display: flex;
@@ -572,7 +571,7 @@
     }
     #bars{
         position: absolute;
-        top: 6%;
+        top: 7%;
         right: 5%;
         font-size: 40px;
         color: aliceblue;
@@ -582,8 +581,11 @@
         display: none;
 
     }
-    #logo{
-        display: none;
+   
+    #top h2{
+        font-size: 10px;
+        margin-right: 25px;
+
     }
     #top nav ul{
         font-size: 10px;
@@ -592,25 +594,20 @@
     #inp:checked~#top nav ul{
         display: block;
         position: absolute;
-        top: 0px;
-        right: 0%;
-        padding: 0px;
+        top: 50px;
+        right:0%;
+        padding: 20px;
         border-radius: 10px;
        background-color: black;
+       line-height: 0%;
      
     }
 
-    #inp:checked~#top #logo{
-        display: block;
-        position: absolute;
-        top: 0px;
-        right: 0%;
-        
-    }
+   
     #top h1{
         border: 1px solid white;
         background-color:red;
-        font-size: 30px;
+        font-size: 25px;
         border-radius: 100%;
         padding-top: 10px;
         padding-left: 30px;
@@ -620,7 +617,6 @@
     
     
     }
-    /*------top media end-----*/
     #home{
         width: 450px;
         height: 100vh;
@@ -631,46 +627,54 @@
         align-items: center;
         flex-wrap: wrap;
         overflow: hidden !important;
-       
-     }
+     
     
     
-   
-    #home div h1{
-        width: 20PX;
-        color: white;
-        font-size: 50px;
-        text-shadow: 15px 15px 20px  brown;
-       
-        
     }
-    
     #home div{
         width: 450px;
         margin-left: 5%;
-        line-height: 20px;
-        font-size: small;
+        line-height: 30px;
+        font-size: xx-large;
         
     }
+    #home div h1{
+        width: 50PX;
+        color: white;
+        font-size: 70px;
+        text-shadow: 15px 15px 20px  brown;
+        
+    }
+    #home div p{
+        color: white;
+    }
+    
     #home div .B1{
         padding-top: 10px;
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 30px;
+        padding-right: 30px;
         padding-bottom: 10px;
-        font-size: 15px
+        font-size: 20px
     }
     #home div .B2{
         padding-bottom: 10px;
-        padding-right: 15px;
+        padding-right: 30px;
         padding-top: 10px;
-        padding-left: 15px;   
-        font-size: 15px;
+        padding-left: 30px;   
+        font-size: 20px;
+    }
+    #home div .B1{
+        color: red;
+        background: lightcoral;
+        border: 1px solid white;
+        font-size: 20px;
+        
     }
     #home div .B2:hover{
         color: red;
         background: lightcoral;
         border: 1px solid white;
-        font-size: 15px;
+        font-size: 20px;
     }
     /*---------second section starts here--*/
     .shop h1{
@@ -713,7 +717,7 @@
     #second .about div video{
         width: 450px;
         height: 400px;
-        padding-left: 15px;
+        padding-left: 0px;
         overflow: hidden !important;
         background-color: lightcyan;
 
@@ -1010,7 +1014,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: 18px;
+    font-size: 20px;
     flex-wrap: wrap;
     background-color: lightcyan;
     overflow: hidden !important;

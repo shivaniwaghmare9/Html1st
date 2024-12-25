@@ -167,8 +167,11 @@
         display: none;
 
     }
-    #logo{
-        display: none;
+    
+    #top h2{
+        font-size: 20px;
+        margin-right: 25px;
+        color: darkred;
     }
     #top nav ul{
         font-size: 10px;
@@ -177,7 +180,7 @@
     #inp:checked~#top nav ul{
         display: block;
         position: absolute;
-        top: 50px;
+        top: 49px;
         right: 0%;
         padding: 20px;
         border-radius: 10px;
@@ -185,9 +188,7 @@
      
     }
 
-    #inp:checked~#top #logo{
-        display: block;
-    }
+    
     #top h1{
         border: 1px solid white;
         background-color:red;
