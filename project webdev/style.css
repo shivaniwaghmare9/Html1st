@@ -996,7 +996,7 @@
 }
 #scrollbar{
     background-color: lightcyan;
-    width: 425px;
+    width: 450px;
     overflow: hidden !important;
 }
 #scrollbar .slider{
