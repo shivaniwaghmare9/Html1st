@@ -571,16 +571,16 @@
         align-items: center;
         padding-left: 30px;
         padding-right: 60px;
-        margin-top: 30px;
+        margin-top: 0px;
         position: absolute;
         color: white;
         font-family: "Oleo Script", system-ui;
-        background-color: black;
+       /* background-color: black;*/
       
     }
     #bars{
         position: absolute;
-        top: 6%;
+        top: 4%;
         right: 10%;
         font-size: 40px;
         color: aliceblue;
@@ -621,6 +621,7 @@
         padding-right: 30px;
         padding-bottom: 10px;
         transition: all 2s ease;
+        margin-top: 10px;
     
     
     }
@@ -642,14 +643,14 @@
     #home div{
         width: 400px;
         margin-left: 5%;
-        line-height: 30px;
+        line-height: 25px;
         font-size: large;
         
     }
     #home div h1{
        /* width: 40PX;*/
         color: white;
-        font-size: 70px;
+        font-size: 50px;
         text-shadow: 15px 15px 20px  brown;
         
     }
