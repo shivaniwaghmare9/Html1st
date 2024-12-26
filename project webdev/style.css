@@ -608,7 +608,7 @@
 /*================footer ends=================*/
 /*============[main css end]============================*/
 /*--------====@media query [CSS]starts here=====-----*/
-@media  (max-width:450px){
+@media  (max-width:500px){
      /*===========TOP MEDIA QUERY STARTS=========*/
     *{
         margin: 0px;
