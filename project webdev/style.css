@@ -132,6 +132,7 @@
     background: lightcoral;
     border: 1px solid white;
     font-size: 40px;
+    border-radius: 100px;
     
 }
 #home div .B2:hover{
@@ -139,6 +140,7 @@
     background: lightcoral;
     border: 1px solid white;
     font-size: 40px;
+    border-radius: 100px;
 }
 /*---------=================-first section ends=================---*/
 /*--------=====second section starts here============------*/
@@ -195,6 +197,7 @@
     padding-bottom: 10px;
     transition: all 3s ease;
     background-color: crimson;
+    border-radius: 100px;
    
 
 }
@@ -350,6 +353,7 @@
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 10px;
+    border-radius: 100px;
  
 
 }
@@ -360,6 +364,7 @@
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 10px;
+    border-radius: 100px;
    
 }
 .d3 div button{
@@ -368,6 +373,7 @@
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 10px;
+    border-radius: 100px;
    
 }
 .d4 div button{
@@ -376,6 +382,7 @@
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 10px;
+    border-radius: 100px;
   
 }
 .d1 div button:hover{
@@ -472,7 +479,24 @@
 }
 #fourth div img{
     border-radius: 100px;
+    transition: all 3s ease ;
    
+}
+#fourth div img:hover{
+    border-radius: 100%;
+    transform: rotate(360deg);
+  
+
+}
+#fourth h2{
+    color: crimson;
+    transition: all 3s ease;
+}
+#fourth h2:hover{
+    color: darkred;
+    border-radius: 100%;
+    transform: rotate(360deg);
+    
 }
 /*--------==========fifth section end======--------*/
 /*--------=====sixth(contact)section starts here-----*/
@@ -554,9 +578,9 @@
 #inp{
     display: none;
 }
-#bars{
+/*#bars{
     display: none;
-}
+}*/
 /*================footer ends=================*/
 /*============[main css end]============================*/
 /*--------====@media query [CSS]starts here=====-----*/
@@ -598,7 +622,7 @@
     }
    
     #top #logo{
-        display: none;
+       display: none;
     }
     #top nav ul{
         font-size: 10px;
@@ -659,7 +683,7 @@
     #home div h1{
        /* width: 40PX;*/
         color: white;
-        font-size: 50px;
+        font-size: 49px;
         text-shadow: 15px 15px 20px  brown;
         
     }
@@ -674,6 +698,7 @@
         padding-right: 20px;
         padding-bottom: 5px;
         font-size: 20px;
+        border-radius: 100px;
     }
     #home div .B2{
         padding-bottom: 5px;
@@ -681,6 +706,7 @@
         padding-top: 5px;
         padding-left: 20px;   
         font-size: 20px;
+        border-radius: 100px;
     }
     #home div .B1{
         color: red;
@@ -709,6 +735,7 @@
          /*background-color:lightgoldenrodyellow; */
         /*gap:10px;*/
         overflow: hidden !important;
+        background-color: lightcyan
        
   
     }  
@@ -742,6 +769,7 @@
         padding-bottom: 5px;
         transition: all 3s ease;
         background-color: crimson;
+        border-radius: 100px;
        
     
     }
@@ -755,11 +783,12 @@
         gap: 10px;
     }
     #second .about div video{
-        width: 95%;
+        width: 90%;
         height: 400px;
         padding-left: 0px;
         overflow: hidden !important;
         background-color: lightcyan;
+        margin-left: 10px;
 
     }
     /*------------===second section end=====----
@@ -779,7 +808,7 @@
         background-color:lightcyan;
        
   }
- /* #third .offer .after-header br{
+  /*#third .offer .after-header br{
       display: none;
   }*/
   #third .offer .after-header{
@@ -791,9 +820,9 @@
      padding-right: 20px;
      overflow: hidden !important;
     }
-    #third .offer .after-header div:hover{
+    /*#third .offer .after-header div:hover{
         display: none;
-    }
+    }*/
     
   #third .offer .heading{
       display: flex;
@@ -808,26 +837,26 @@
  }
   
    #third .d1 div{
-     /* border: 1px solid black;*/
+      border: 1px solid black;
       width: 100%;
       height: 30%;
       background-color: lightcyan;
      
   }
   #third .d2 div{
-     /* border: 1px solid black;*/
+     border: 1px solid black;
       width: 100%;
       height: 30%;
       background-color: lightcyan;
   }
   #third .d3 div{
-     /* border: 1px solid black;*/
+      border: 1px solid black;
      background-color: lightcyan;
       width: 100%;
       height: 30%;
   }
   #third .d4 div{
-     /* border: 1px solid black;*/
+      border: 1px solid black;
       width: 100%;
       height: 30%; 
       background-color: lightcyan;;
@@ -917,6 +946,7 @@
       margin-bottom: 10px;
       color: black;
       background-color: lightcyan;
+      border-radius: 100px;
    
   
   }
@@ -930,6 +960,7 @@
       margin-bottom: 10px;
       color: black;
       background-color: lightcyan;
+      border-radius: 100px;
 
      
   }
@@ -942,6 +973,7 @@
       margin-bottom: 10px;
       color: black;
       background-color: lightcyan;
+      border-radius: 100px;
      
   }
   .d4 div button{
@@ -953,8 +985,9 @@
       margin-bottom: 10px;
       color: black;
       background-color: lightcyan;
+      border-radius: 100px;
   }
-   /*.d1 div button:hover{
+   .d1 div button:hover{
     color: black;
     border: 1px solid white;
     font-size: 20px;
@@ -999,7 +1032,7 @@
   #third .d4 div:hover{
     background-color: lightcoral;
     color: aliceblue;
-  }*/
+  }
   /*--------third section end----*/
  /*=======third section media query end====*/
 /*------------scrollbar section starts here----*/
@@ -1060,11 +1093,30 @@
     background-color: lightcyan;
     overflow: hidden !important;
 }
-
-
+#fourth h2{
+    color: crimson;
+    transition: all 3s ease;
+}
+#fourth h2:hover{
+    color: darkred;
+    border-radius: 100%;
+    transform: rotate(360deg);
+    
+}
 #fourth p{
     font-size: 10px;
    
+}
+#fourth div img{
+    border-radius: 100px;
+    transition: all 3s ease ;
+   
+}
+#fourth div img:hover{
+    border-radius: 100%;
+    transform: rotate(360deg);
+  
+
 }
 /*=======fourth section end=====*/
 /*=========contact section starts=====*/
