@@ -143,7 +143,7 @@
 }
 /*========FOOTER END======*/
 /*========= MEDIA QUERY STARTS=======*/
-@media (max-width:450px){
+@media (max-width:500px){
      /*=======TOP MEDIA QUERY STARTS====*/
     #top{
         width: 100%;
@@ -208,7 +208,7 @@
     /*------top media end-----*/
     /*======= MAIN (SECTION) MEDIA STARTS=====*/
     #shop{
-        width: 450px;
+        width: 100%;
          /* border: 1px solid black;*/
          height: auto;
          display: flex;
@@ -248,7 +248,7 @@
      /*========MAIN (SECTION) END=====*/
      /*=======FOOTER STARTS HERE====*/
     #connect{
-        width: 450px;
+        width: 100%px;
         height: 250px;
         display: flex;
         justify-content: center;

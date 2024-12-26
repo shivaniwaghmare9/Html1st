@@ -156,7 +156,7 @@
   /*================footer ends=================*/
 /*============[main css end]============================*/
   /*--------====@media query [CSS]starts here=====-----*/
-  @media (max-width:450px){
+  @media (max-width:500px){
      /*===========TOP MEDIA QUERY STARTS=========*/
     #top{
         width: 100%;
@@ -268,7 +268,7 @@
 
       /*--------======footer starts here=========-----*/
       #connect{
-          width: 450px;
+          width: 100%;
           height: 250px;
           display: flex;
           justify-content: center;
