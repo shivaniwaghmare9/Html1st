@@ -1,0 +1,600 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+    }
+    /* <=================navbar css codes starts=================> */
+#tophead h1{
+    align-items: centerg;
+}
+#tophead{
+    width: 100%;
+    height: 50px;
+    background-color: antiquewhite;
+    /* overflow-x: hidden !important; */
+}
+#tophead ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    list-style-type: none;
+    text-decoration: none;
+}
+#tophead ul li{
+    list-style-type: none;
+}
+#tophead{
+    color: black;
+}
+#tophead ul li a:hover{
+    color: red;
+
+}
+
+/* <=========================navbar css codes ends==============> */
+/* <==============tophead css codes starts ===================> */
+
+#nav .r{
+display: flex;
+justify-content: space-between;
+    background-color: deeppink;
+    width:100% ;
+    /* height:500px; */
+    padding:5%;
+   font-size: xx-large;
+   /* position: absolute; */
+   /* overflow-x: hidden !important; */
+    }
+ #nav .r h1{
+    color: white;
+ }
+ #nav .r p{
+    width: 50%;
+    color: white;
+    font-size: small;
+ }
+ #nav  .r.btn1:hover{
+    color: white;
+   background-color:  rgb(140, 14, 14);
+   color:beige;
+   border: none;
+   padding: 10px 6px;
+ }
+ 
+ /* <====================tophead css code ends================> */
+ /* <=================gifts shop starts====================> */
+#containt{
+    width:100%;
+    /* overflow-x: hidden !important; */
+}     
+#containt .maindiv{
+    width: 100%;
+    /* border: 2px solid black; */
+     display: grid;
+    grid-template-columns: auto auto auto auto; 
+    justify-content: center;
+    gap: 10px;
+}
+
+#containt .maindiv div{
+    height: 300px;
+    border: 1px solid black;
+    padding-left: 5%;
+    }
+#containt h1{
+font-size:xx-large;
+}
+#containt .maindiv:hover{   
+   padding: 5px  6px;
+   
+}
+/* <============gifts shop close==============> */
+/* <=================product css codes starts======================> */
+#product{
+    margin-top: 10%;
+    margin-left: 5%;
+   margin-bottom: 5%; 
+    background-color:#7fd7eb;
+    width:90%;
+    color:white;
+    display: flex;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px; 
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    overflow-x: hidden !important;
+}
+#product .fbt{
+    padding: 3% 50px;
+    margin-top:30%;
+    background-color: #109dbd;
+    border: none;
+    color: white;
+    
+}
+#product .sbt{
+    padding: 3% 50px; 
+    background-color: white;
+    border: none;
+    
+}
+#product .fbt:hover{
+    background:transparent ;
+}
+#product .sbt:hover{
+    background:transparent;
+}
+/* <=========================product css codes ends==========================> */
+/* <==========================shopdiv css codes starts===================> */
+#shop{
+    width: 100%;
+    overflow-x: hidden !important;
+    }
+.shopdiv div{
+        display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border: 2px solid black;
+    }
+#shop .shophead{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    width: 100%;
+    }
+#shop .shopdiv
+{
+
+    display: flex;
+    justify-content: center;
+    gap: 2%; ;
+    margin-top: 70px;
+    width: 100%;
+    height: 250px;
+}
+#shopdiv .quet{
+    width: 100%;
+    box-shadow: 15px 15px 0px 50px grey;
+}
+/* <===================================shopdiv css codes ends===================> */
+/* <======================lay css starts======================> */
+#lay {
+    width:100%;
+    border: 2px solid black;
+    overflow-x: hidden !important;
+}
+#lay{
+   
+        margin-top: 10%;
+       margin-bottom: 5%; 
+        background-color: #6f42c1;;
+        width: 100%;
+        color:white;
+        display: flex;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px; 
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+}
+
+    /* <======================lay css codes ends====================> */
+/* <======================conio css starts======================> */
+#conio{
+    width: 100%;
+    margin-top: 10%;
+       margin-bottom: 5%; 
+       padding-left: 60px;
+       overflow-x: hidden !important;
+    }
+#conio h1{
+    font-size:xx-large;
+    }
+#conio div{splay: flex;
+}
+#conio .corn{
+    padding-left: 20%;
+    font-size: xx-large;
+}
+/* <=====================conio css codes ends=======================> */
+/* <======================test codes starts======================> */
+#test .team{
+    width:90%;
+    border: 1px solid wheat;
+    box-shadow: -15px  -15px 10px 5px white ;
+    margin-bottom: 100px;
+    margin-left: 70px;
+    overflow-x: hidden !important;
+}
+#test div h1{
+    color: red; 
+}
+#test div h2{
+    color:gray; 
+}
+/* <========================test css codes ends========================> */
+/* <==================connect css codes starts=====================> */
+#connect{
+    width:100%;
+    height: 80vh;
+    border: 1px solid black;
+     background-color: gray;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+      overflow-x: hidden !important;
+    }
+    #connect .box2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .box2 div{
+        width: 300px;
+        height: 300px;
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+/* <========================connect css codes ends=====================> */
+
+@media(max-width:450px){
+    #bars{
+        position: absolute;
+        top: 4%;
+        right: 10%;
+        font-size: 40px;
+        color:black;
+        z-index: 50;
+    }
+
+
+
+    #tophead ul{
+        display: flex; 
+        /* flex-direction: column ;
+        gap: 5px; */
+
+    }
+
+
+   
+    #tophead #logo{
+        display:none;
+    }
+     
+    #tophead ul{
+        font-size: 10px;
+    }
+   
+    #inp:checked~#tophead  ul{
+        display: block;
+        position: absolute;
+        top: 50px;
+        right:1%;
+        padding: 20px;
+        border-radius: 10px;
+       background-color: black;
+     }
+
+
+    #nav .r{
+          display:flex;
+        justify-content: center;
+            background-color: deeppink;
+            width:100% ;
+            /* height:500px; */
+            padding:5%;
+           font-size: large;
+           /* position: absolute; */
+           /* overflow-x: hidden !important; */
+            }
+
+            #nav .r p{
+                width: 30%;
+                color: white;
+                font-size: small;
+             }
+
+
+
+    .homeimg img{
+        margin-right: 0px;
+    }
+
+
+
+    /* ==================================================== */
+    /* #containt .maindiv{
+        width: 100%;
+        /* border: 2px solid black; */
+         /* display: grid;
+        grid-template-columns: 1fr;
+    
+        align-items: center; */
+
+        /* justify-content: center; */
+        /* gap: 10px;
+        flex-wrap: wrap;
+    }
+    #containt .maindiv {
+        width: 40px;
+    } */ */
+
+
+
+    /* <=======================footer===============> */
+    #connect{
+        width:100%;
+        height: 80vh;
+        border: 1px solid black;
+         background-color: gray;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+          overflow-x: hidden !important;
+        }
+        #connect .box2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+        .box2 div{
+           /* width: 300px;
+            height: 500px;
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;*/
+        }
+    #connect{
+        width:450px;
+        height: auto;
+        border: 1px solid black;
+         background-color: lightslategray;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+         
+        }
+
+
+        #connect .box2{
+            /* display: flex; */
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+
+        .box2 div{
+            width: 300px;
+            height:300px;
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        /* <=====================footer media end==========================> */
+        #test .team{
+            width:400px;
+            border: 1px solid wheat;
+            box-shadow: -15px  -15px 10px 5px white ;
+            margin-bottom: 100px;
+            margin-left: 45px;
+            overflow-x: hidden !important;
+        }
+        #test div h1{
+            color: red; 
+        }
+        #test div h2{
+            color:gray; 
+        }
+        #conio{
+            width: 100%;
+            margin-top: 10%;
+               margin-bottom: 5%; 
+               padding-left: 40px;
+              /* overflow-x: hidden !important;*/
+              display: flex;
+              justify-items: center;
+              align-items: center;
+             flex-direction: column;
+            
+
+            
+            }
+            #conio div .corn{
+                display: flex;
+                justify-items: center;
+                align-items: center;
+               flex-direction: column;
+              
+
+            }
+        #conio h1{
+            font-size:xx-large;
+            }
+        #conio div{
+            display: flex;
+        }
+        #conio .corn{
+            padding-left: 20%;
+            font-size: xx-large;
+        }
+        #lay {
+            width:100%;
+            height: auto;
+            border: 2px solid black;
+            overflow-x: hidden !important;
+        }
+        #lay{
+           
+                margin-top: 10%;
+               margin-bottom: 5%; 
+                background-color: #6f42c1;;
+                width: 100%;
+                color:white;
+                display: flex;
+                border-top-right-radius: 20px;
+                border-bottom-left-radius: 20px; 
+                border-top-left-radius: 20px;
+                border-bottom-right-radius: 20px;
+        }
+        #shop{
+            width: 450px;
+            height: auto;
+            overflow-x: hidden !important;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            }
+        .shopdiv div{
+                display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            border: 2px solid black;
+            }
+        #shop .shophead{
+            display: flex;
+            justify-content: center;
+            font-size: xx-large;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            flex-direction: column;
+
+            }
+        #shop .shopdiv
+        {
+        
+            display: flex;
+            justify-content: center;
+            gap: 2%; ;
+            margin-top: 70px;
+            width: 100%;
+            height: 250px;
+           
+        }
+        #shopdiv .quet{
+            width: 100%;
+            box-shadow: 15px 15px 0px 50px grey;
+        }
+        
+    
+        
+        
+        /* #containt{
+            width:100%;
+            /* overflow-x: hidden !important; */
+        /* }     
+        #containt .maindiv{
+            width:auto;
+            height: 10px;
+            /* border: 2px solid black; */
+             /* display: grid;
+            grid-template-columns: 1fr; 
+            justify-content: center;
+            gap: 10px;
+        }
+        
+        #containt .maindiv div{
+            height: 300px;
+            border: 1px solid black;
+            padding-left: 5%;
+
+            }
+        #containt h1{
+        font-size:xx-large;
+        }
+        #containt .maindiv:hover{   
+           padding: 5px  6px;
+        }    */ 
+        /* #containt .maindiv .one{
+            width: 0%;
+            height: auto;
+            padding-left: 10px;
+        }
+        #containt .maindiv .two{
+            width: 5%;
+            height: auto;
+            padding-left: 10px;
+        } */
+        /* #containt .maindiv div{
+            width: 100px;
+            height:200px;
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding-left: 20px;
+            padding-right: 20px;
+        } */
+        
+        #containt .maindiv.one img{
+            height: none;
+            align-items: center;
+            padding-left: 10px;
+        }
+        #containt .maindiv.two img{
+           
+           width:-10px;
+            height: none;
+            align-items: center;
+            padding-left: 10px;
+        }
+        #containt .maindiv{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .maindiv div img{
+            width: 200px;
+            height: 100px;
+            background-color: 2px solid black;
+            border-radius: 13px;
+            margin: 10px;
+        }
+/*=====================================================*/
+              #product{
+            margin-top: 10%;
+            /* margin-left: 5%; */
+            margin-bottom: 5%; 
+            background-color: #7fd7eb;
+            width:100%;
+            color:white;
+            display: flex;
+            flex-direction: column;
+            border-top-right-radius: 20px;
+            border-bottom-left-radius: 20px; 
+            border-top-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            
+        }
+     }
