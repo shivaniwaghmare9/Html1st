@@ -5,6 +5,7 @@
     font-family: "Oleo Script", system-ui;
 
 }
+/*=======TOP(HEADER STARTS)=====*/
 #top{
     width: 100%;
     display: flex;
@@ -83,8 +84,9 @@
     display: none;
  }
 
-/*------header section end-----*/
-/*--------main section starts----*/
+/*------====header section end====-----*/
+/*--------main TAG (sectionS) starts----*/
+/*======FIRST SECTION===*/
 #shop{
    /* width: 100%;
     border: 1px solid black;*/
@@ -112,6 +114,7 @@
     font-size: 40px;
     
 }
+/*=======FIRST SECTION END====*/
 /*--------second section starts----*/
 #menu{
    /* width: 100%;
@@ -147,8 +150,8 @@
     text-shadow: 15px 15px 10px  gray;
 }
 
-
-/*---------main tag end-------*/
+/*======SECOND SECTION END====*/
+/*---------==(main tag end)===-------*/
 /*--------footer starts here-----*/
 #connect{
     width: 100%;
@@ -182,7 +185,10 @@
     height:7vh;
     font-size: 30px;
 }
+/*======FOOTER END=======*/
+/*=========MEDIA QUERY STARTS HERE=====*/
 @media (max-width:450px){
+    /*=======HEADAR(TOP)STARTS HERE===*/
     #top{
         width: 100%;
         display: flex;
@@ -301,7 +307,9 @@
     
     
     }*/
+    /*=========HEADER CSS END======*/
      /*------main starts here----*/
+     /*=====MAIN(FIRST SECTION)STARTS===*/
      #shop{
         width: 450px;
          /* border: 1px solid black;*/
@@ -343,6 +351,8 @@
         width: 450px;
        
      }
+     /*=======FIRST SECTION END====*/
+     /*=========SECOND SECTION STARTS======*/
      #menu br{
         display: none;
      }
@@ -380,6 +390,8 @@
          flex-wrap: wrap;
          text-shadow: 15px 15px 10px  gray;
      }
+     /*========SECTION SECTION END====*/
+     /*==========FOOTER STARTS HERE=====*/
      
      #connect{
         width: 450px;
@@ -433,8 +445,10 @@
         font-size: 10px;
       
     }
-
+/*======FOOTER END ===========*/
 }
+
+/*========={MEDIA QUERY END======}*/
     
 
 

@@ -141,7 +141,10 @@
 #inp{
     display: none;
 }
+/*========FOOTER END======*/
+/*========= MEDIA QUERY STARTS=======*/
 @media (max-width:450px){
+     /*=======TOP MEDIA QUERY STARTS====*/
     #top{
         width: 100%;
         display: flex;
@@ -203,6 +206,7 @@
     
     }
     /*------top media end-----*/
+    /*======= MAIN (SECTION) MEDIA STARTS=====*/
     #shop{
         width: 450px;
          /* border: 1px solid black;*/
@@ -241,6 +245,8 @@
       
        
      }
+     /*========MAIN (SECTION) END=====*/
+     /*=======FOOTER STARTS HERE====*/
     #connect{
         width: 450px;
         height: 250px;
@@ -293,5 +299,7 @@
         font-size: 10px;
       
     }
+    /*======FOOTER END ===========*/
 }
+/*========={MEDIA QUERY END======}*/
     

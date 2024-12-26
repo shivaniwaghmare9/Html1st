@@ -140,8 +140,8 @@
      border: 1px solid white;
      background-color: lightslategrey;
  }
- /*------about section end------*/
- /*-------trasition starts hera-----*/
+ /*------====about section end====------*/
+ /*-------=====trasition starts here===----*/
 #trasition {
     /*width: 100%;
     height: 100vh;
@@ -160,7 +160,7 @@
     font-size: 70px;
   
  }
- /*--------footer starts here-----*/
+ /*--------=====footer starts here=====-----*/
 #connect{
     width: 100%;
     height: 50vh;
@@ -196,9 +196,12 @@
 #inp{
     display: none;
 }
-/*------@media starts here-----*/
+/*============footer/main css end ==============*/
+/*-----==========@MEDIA QUERY STARTS==========-----*/
+
 
 @media (max-width :450px){
+    /*============TOP MEDIA QUERY STARTS========*/
     #top{
         width: 100%;
         display: flex;
@@ -233,8 +236,8 @@
     #top nav ul{
         font-size: 10px;
     }
-   
-    #inp:checked~#top nav ul{
+    
+   #inp:checked~#top nav ul{
         display: block;
         position: absolute;
         top: 50px;
@@ -260,6 +263,8 @@
     
     
     }
+    /*===================TOP END==========*/
+    /*=======ABOUT SECTION MEDIA STARTS=====*/
     #about-html .about{
         width: 450px;
         height: auto;
@@ -315,7 +320,8 @@
    
 
 }
-/*-------trasition starts hera-----*/
+/*=======ABOUT SECTION END=======*/
+/*-----trasition starts hera-----*/
 #trasition {
     /*width: 100%;*/
     height: auto;
@@ -338,6 +344,7 @@
  #trasition div video{
     width: 450px;
  }
+ /*========TRASITION END=====*/
  /*-------footer starts-------*/
  #connect{
     width: 450px;
@@ -391,4 +398,6 @@
     font-size: 10px;
   
 }
+/*========FOOTER END======*/
 }
+/*========={MEDIA QUERY END======}*/
