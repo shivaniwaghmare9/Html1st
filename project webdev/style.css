@@ -65,7 +65,7 @@
     font-size: larger;
    background-color: red;
 }
-/*#top h2 a{
+#top h2 a{
     font-size: 30px;
     transition: all 2s ease;
     color: white;
@@ -74,7 +74,7 @@
 #top h2 a:hover{
    color: brown;
   
-}*/
+}
 
 /*-------=====top[HEADER TAG] end=========----------*/
 
@@ -467,7 +467,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: 60px;
+    font-size: 50px;
     flex-wrap: wrap;
 }
 #fourth div img{
@@ -520,7 +520,7 @@
 /*--------=======footer starts here=========-----*/
 #connect{
     width: 100%;
-    height: 50vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -552,6 +552,9 @@
     font-size: 30px;
 }
 #inp{
+    display: none;
+}
+#bars{
     display: none;
 }
 /*================footer ends=================*/
