@@ -709,8 +709,7 @@
          /*background-color:lightgoldenrodyellow; */
         /*gap:10px;*/
         overflow: hidden !important;
-        margin-right: 10px;
-        margin-left: 10px;
+       
   
     }  
     #second .about div {
@@ -726,9 +725,7 @@
     #second .about .shop{
         height: auto;
         background-color: lightcyan;
-        margin-right: 20px;
-        margin-left: 20px;
-
+        
     }
     .shop h2{
         font-size: 20px;
