@@ -69,6 +69,7 @@
     font-size: 30px;
     transition: all 2s ease;
     color: white;
+    
    
 }
 #top h2 a:hover{
@@ -637,9 +638,9 @@
     }
     #bars{
         position: absolute;
-        top: 4%;
-        right: 10%;
-        font-size: 40px;
+        top: 5%;
+        right: 8%;
+        font-size: 35px;
         color: aliceblue;
         z-index: 50;
     }
@@ -647,9 +648,17 @@
         display: none;
 
     }
-   
     #top #logo{
-       display: none;
+        right: 2%;
+        position: absolute;
+        padding-top: 20px;
+
+       
+    }
+    #top #logo a{
+        font-size: 20px;
+        text-decoration: none;
+        color: antiquewhite;
     }
     #top nav ul{
         font-size: 10px;
@@ -659,7 +668,7 @@
         display: block;
         position: absolute;
         top: 52px;
-        right:5%;
+        right:3%;
         padding: 20px;
         border-radius: 10px;
        background-color: black;
