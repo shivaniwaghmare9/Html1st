@@ -295,14 +295,14 @@
          display: flex;
          justify-content: center;
          align-items: center;
-         padding-right: 20px;
+         padding-right: 25px;
          
      }
     #about-html .about div video{
          width: 350px;
          height: 400px;
          margin-bottom: 40px;
-         margin-right: 10px;
+         margin-right: 15px;
         
        
         
@@ -319,7 +319,7 @@
 
    }
     .shop p{
-    font-size: 13px;
+    font-size: 10px;
   }
    #about-html button{
     font-size: 25px;
