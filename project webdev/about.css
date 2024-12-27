@@ -289,7 +289,7 @@
     
     #about-html .about div{
         /* border: 1px solid black;*/
-         width: 450px;
+         width: 400px;
          height: 400px;
          gap: 0px;
          display: flex;
