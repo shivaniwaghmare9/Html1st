@@ -6,6 +6,9 @@
     scroll-behavior: smooth;
 
 }
+#bars{
+    display: none;
+}
 #top{
     width: 100%;
     display: flex;
@@ -179,6 +182,9 @@
         color: aliceblue;
         z-index: 50;
        
+    }
+    #bars{
+        display: block;
     }
     #top nav ul{
         display: none;

@@ -20,6 +20,9 @@
  
   
 }
+#bars{
+    display: none;
+}
 
     
 
@@ -215,6 +218,9 @@
         color: white;
         font-family: "Oleo Script", system-ui;
         background-color: black;
+    }
+    #bars{
+        display: block;
     }
     #bars{
         position: absolute;
