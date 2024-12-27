@@ -843,8 +843,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-left: 20px;
-     padding-right: 20px;
+   /* padding-left: 20px;*/
+     padding-right: 40px;
      overflow: hidden !important;
      margin-right: 150px
 
@@ -863,7 +863,7 @@
       border: none;
       font-size: 20px;
       overflow: hidden !important;
-      margin-right: 100px;
+     
      
  }
   
@@ -895,7 +895,7 @@
       background-color: lightcyan;;
   }
   .d1 img{
-      width: 100%px;
+      width: 350px;
       height: 300px;
   }
   .d1 div{
