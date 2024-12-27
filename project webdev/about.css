@@ -295,11 +295,11 @@
          display: flex;
          justify-content: center;
          align-items: center;
-         padding-right: 10px;
+         padding-right: 20px;
          
      }
     #about-html .about div video{
-         width: 400px;
+         width: 350px;
          height: 400px;
          margin-bottom: 40px;
          margin-right: 10px;
@@ -354,7 +354,7 @@
   
  }
  #trasition div video{
-    width: 400px;
+    width: 350px;
 
  }
  /*========TRASITION END=====*/
