@@ -289,7 +289,7 @@
     
     #about-html .about div{
         /* border: 1px solid black;*/
-         width: 400px;
+         width: 350px;
          height: 400px;
          gap: 0px;
          display: flex;
@@ -319,7 +319,7 @@
 
    }
     .shop p{
-    font-size: 15px;
+    font-size: 13px;
   }
    #about-html button{
     font-size: 25px;
