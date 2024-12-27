@@ -117,9 +117,9 @@
 /*=======FIRST SECTION END====*/
 /*--------second section starts----*/
 #menu{
-   /* width: 100%;
-    height: 100vh;
-    border: 1px solid black;*/
+    width: 100%;
+    height: auto;
+   /* border: 1px solid black;*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -129,7 +129,7 @@
 
 #menu .cfs div{
     width: 600px;
-    height: 900px;
+    height: auto;
    /*border: 1px solid black;*/
     display: flex;
     justify-content: center;
@@ -145,9 +145,27 @@
     align-items: center;
     gap: 20px;
     font-size: 70px;
-   /* padding-bottom: 70px;*/
     flex-wrap: wrap;
     text-shadow: 15px 15px 10px  gray;
+}
+#menu .items div p{
+    border-radius: 100px;
+    border: 1px solid lightslategray;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: lightblue;
+    transition: all 3s ease-in-out;
+   
+}
+#menu .items div p span{
+  color: chocolate;
+ 
+}
+#menu .items div p:hover{
+   background-color: lightpink;
+   font-size: 80px;
 }
 
 /*======SECOND SECTION END====*/
@@ -155,7 +173,7 @@
 /*--------footer starts here-----*/
 #connect{
     width: 100%;
-    height: 50vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -331,6 +349,7 @@
      }
      #shop div br{
         display: none;
+        
      }
      
      
@@ -349,6 +368,8 @@
     }
      #shop div img{
         width: 400px;
+        height: 400px;
+        margin-bottom: 50px;
        
        
      }

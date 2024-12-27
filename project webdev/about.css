@@ -133,6 +133,7 @@
      padding-bottom: 10px;
      transition: all 3s ease;
      background-color: red;
+     border-radius: 100px;
     
  
  }
@@ -285,12 +286,16 @@
          width: 450px;
          height: 400px;
          gap: 0px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
          
      }
     #about-html .about div video{
          width: 90%;
          height: 400px;
          margin-bottom: 40px;
+         margin-left: 20px;
         
        
         
@@ -301,15 +306,15 @@
         text-shadow: 25px 25px 20px  grey;
 
 
-}
-.shop h2{
+   }
+    .shop h2{
     font-size: 25px;
 
-}
-.shop p{
+   }
+    .shop p{
     font-size: 15px;
-}
-#about-html button{
+  }
+   #about-html button{
     font-size: 25px;
     padding-top: 5px;
     padding-left: 15px;
@@ -342,7 +347,8 @@
   
  }
  #trasition div video{
-    width: 450px;
+    width: 400px;
+
  }
  /*========TRASITION END=====*/
  /*-------footer starts-------*/

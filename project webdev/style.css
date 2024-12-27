@@ -111,7 +111,7 @@
     
 }
 #home div h1:hover{
-    font-size: 150px;
+    font-size: 145px;
     transform: rotate(360deg);
     border-radius: 100px;
 }
@@ -602,9 +602,9 @@
 #inp{
     display: none;
 }
-/*#bars{
+#bars{
     display: none;
-}*/
+}
 /*================footer ends=================*/
 /*============[main css end]============================*/
 /*--------====@media query [CSS]starts here=====-----*/
@@ -631,6 +631,9 @@
         font-family: "Oleo Script", system-ui;
        /* background-color: black;*/
       
+    }
+    #bars{
+        display: block;
     }
     #bars{
         position: absolute;
@@ -843,7 +846,7 @@
     padding-left: 20px;
      padding-right: 20px;
      overflow: hidden !important;
-     margin-right: 25px;
+     margin-right: 30px;
     }
     /*#third .offer .after-header div:hover{
         display: none;
@@ -866,7 +869,7 @@
       border: 1px solid black;
       width: 100%;
       height: 30%;
-      background-color: lightcyan;
+      background-color: lightslategray;
      
      
   }
@@ -879,7 +882,7 @@
   }
   #third .d3 div{
       border: 1px solid black;
-     background-color: lightcyan;
+     background-color: lightslategray;
       width: 100%;
       height: 30%;
   }
