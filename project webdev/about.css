@@ -295,13 +295,14 @@
          display: flex;
          justify-content: center;
          align-items: center;
+         padding-right: 10px;
          
      }
     #about-html .about div video{
          width: 400px;
          height: 400px;
          margin-bottom: 40px;
-         margin-left: 10px;
+         margin-right: 10px;
         
        
         
