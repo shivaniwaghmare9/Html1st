@@ -13,7 +13,7 @@
     align-items: center;
     padding-left: 30px;
     padding-right: 60px;
-    margin-top: 30px;
+    margin-top: 0px;
     position: absolute;
     color: white;
     font-family: "Oleo Script", system-ui;
@@ -83,6 +83,9 @@
  #inp{
     display: none;
  }
+ #bars{
+    display: none;
+ }
 
 /*------====header section end====-----*/
 /*--------main TAG (sectionS) starts----*/
@@ -90,7 +93,7 @@
 #shop{
    /* width: 100%;
     border: 1px solid black;*/
-    height: 100vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -135,10 +138,8 @@
     justify-content: center;
     align-items: center;
     gap: 30px; 
-   
-    
-   
 }
+
 #menu .items div {
     display: flex;
     justify-content: center;
@@ -283,6 +284,9 @@
     #top h2:hover{
         color:darkcyan;
        
+     }
+     #bars{
+        display: block;
      }
 
      #bars{
