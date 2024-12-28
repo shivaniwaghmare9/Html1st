@@ -1,8 +1,11 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: "Jaro", serif;
 
 }
+/*=============[HEADER STARTS HERE]==========*/
 
 #head{
     height: 72px;
@@ -16,11 +19,136 @@
 }
 
 #logo{
-    height: 150px;
+    height: 140px;
     width: 100%;
-    background-color: wheat;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
 }
 
 #logo img{
     height: 110px;
 }
+#logo img:hover{
+    height: 130px;
+}
+#logo .contains{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+#logo .contains ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+     gap: 50px;
+     font-size: 30px;
+     
+}
+#logo .contains ul li a{
+    text-decoration: none;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    
+}
+#logo .contains ul li a:hover{
+    color: aliceblue;
+    font-size: 40px;
+    background-color: black;
+}
+#logo .icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    font-size: 40px;
+    gap: 20px;
+}
+/*===========[HEADER ENDS]==============*/
+/*===========[MAIN TAG STARTS HERE]===========--*/
+/*===============[first section starts here]=========*/
+#signature-series{
+    width: 100%;
+    height: 75vh;
+    border: 1px solid black;
+     background-image: url(./Ajmal_Royal_Series_Static.webp);
+     background-size: cover;
+    animation:sellers 5s ease infinite;
+}
+@keyframes sellers{
+    0%{
+        background-image: url(./Ajmal_Royal_Series_Static.webp);
+    }
+    25%{
+        background-image: url(./Signature_series.webp);
+    }
+    75%{
+        background-image: url(./global\ best\ sellers.webp);
+    }
+    100%{
+        background-image: url(./SS-winter-2024.webp);
+    }
+    
+    
+}
+ /* ===============[first section end]=============--*/
+/*--================[second section starts here]======--*/
+#new-arrivals{
+    width: 100%;
+    height: 100vh;
+    border: 1px solid black;
+}
+#new-arrivals .discover{
+    height: 35vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+      font-size: 30px;
+}
+#new-arrivals .discover h2{
+    border: 1px solid sienna;
+    border-radius: 100%;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    color: sienna;
+}
+#new-arrivals .discover h2:hover{
+    background-color: wheat;
+}
+#new-arrivals .product {
+    width: 100%px;
+    height: 80vh;
+    border: 1px solid black;
+   
+}
+#new-arrivals .product div{
+    width: 600px;
+    height: 776px;
+    border: 1px solid black;
+    gap: 30px;
+}
+#new-arrivals .product{
+    display: grid;
+   grid-template-columns: repeat(7,600px);
+   overflow-x: scroll;
+   scrollbar-width: none;
+   gap: 30px;
+}
+
+
+
+
+
+
+
+
