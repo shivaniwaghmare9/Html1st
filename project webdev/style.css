@@ -397,7 +397,7 @@
     color: black;
     border: 1px solid white;
     font-size: 40px;
-    background-color: saddlebrown;
+    background-color: brown;
    
  
 
@@ -406,7 +406,7 @@
     color: black;
     border: 1px solid white;
     font-size: 40px;
-   background-color: lightsalmon;
+   background-color:brown;
 }
 .d3 div button:hover{
     color: black;
@@ -418,7 +418,7 @@
     color: black;
     border: 1px solid white;
     font-size: 40px;
-     background-color: darkgoldenrod;
+     background-color:brown;
 }
 #third .d1 div:hover{
     background-color: lightcoral;
@@ -504,7 +504,7 @@
 
 }
 #fourth h2{
-    color: crimson;
+    color: darkred;
     transition: all 3s ease;
 }
 #fourth h2:hover{
@@ -771,7 +771,7 @@
          /*background-color:lightgoldenrodyellow; */
         /*gap:10px;*/
         overflow: hidden !important;
-        background-color: lightcyan
+    
        
   
     }  
@@ -787,7 +787,7 @@
     }
     #second .about .shop{
         height: auto;
-        background-color: lightcyan;
+        
         
     }
     .shop h2{
@@ -822,8 +822,6 @@
         width: 90%;
         height: 400px;
         padding-left: 0px;
-        overflow: hidden !important;
-        background-color: lightcyan;
         margin-left: 13px;
 
     }
@@ -841,7 +839,7 @@
         gap: 3px;
         flex-direction: column;
         overflow: hidden !important;
-        background-color:lightcyan;
+        ;
        
   }
   /*#third .offer .after-header br{
@@ -1034,21 +1032,21 @@
     color: black;
     border: 1px solid white;
     font-size: 20px;
-    background-color: saddlebrown;
+    background-color: dimgray;
    
  }
   .d2 div button:hover{
     color: black;
     border: 1px solid white;
     font-size: 20px;
-    background-color: saddlebrown;
+    background-color: dimgray;
    
   }
   .d3 div button:hover{
     color: black;
     border: 1px solid white;
     font-size: 20px;
-    background-color: saddlebrown;
+    background-color: dimgray;
    
     
   }
@@ -1056,24 +1054,24 @@
     color: black;
     border: 1px solid white;
     font-size: 20px;
-    background-color: saddlebrown;
+    background-color: dimgray;
    
   }
   
  #third .d1 div:hover{
-    background-color: lightcoral;
+    background-color: darkred;
     color: aliceblue;
   }
   #third .d2 div:hover{
-    background-color: lightcoral;
+    background-color: darkred;
     color: aliceblue;
   }
   #third .d3 div:hover{
-    background-color: lightcoral;
+    background-color: darkred;
     color: aliceblue;
   }
   #third .d4 div:hover{
-    background-color: lightcoral;
+    background-color: darkred;
     color: aliceblue;
   }
   /*--------third section end----*/
@@ -1089,7 +1087,7 @@
  
 }
 #scrollbar{
-    background-color: lightcyan;
+  
     width: 100%;
     overflow: hidden !important;
 }
@@ -1133,7 +1131,7 @@
     justify-content: center;
     font-size: 15px;
     flex-wrap: wrap;
-    background-color: lightcyan;
+   
     overflow: hidden !important;
 }
 #fourth h2{

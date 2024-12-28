@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+#head{
+    height: 72px;
+    font-size: 32px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo{
+    height: 150px;
+    width: 100%;
+    background-color: wheat;
+}
+
+#logo img{
+    height: 110px;
+}

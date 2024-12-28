@@ -135,7 +135,7 @@
      padding-right: 30px;
      padding-bottom: 10px;
      transition: all 3s ease;
-     background-color: red;
+     background-color: brown;
      border-radius: 100px;
     
  
@@ -283,7 +283,7 @@
         flex-wrap: wrap;
        gap: none;
        flex-direction: column;
-       background-color: lemonchiffon;
+     
      
     }
     
