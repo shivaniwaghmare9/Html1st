@@ -3,8 +3,8 @@
     padding: 0;
     box-sizing: border-box;
    /* font-family: "Jaro", serif;*/
-  /* font-family: "Oleo Script", serif;*/
-  font-family: "Spicy Rice", serif;
+  font-family: "Oleo Script", serif;
+ /* font-family: "Spicy Rice", serif;*/
  /*font-family: "Charm", serif;*/
 
 }
@@ -145,6 +145,7 @@
     height: auto;
   /*  border: 1px solid black;*/
     font-size: 20px;
+    
   
    
 }
@@ -156,11 +157,13 @@
    scrollbar-width: none;
    gap: 30px;
    flex-wrap: wrap;
+  
 }
 #new-arrivals .product img{
     width: 600px;
     height: 600px;
     border: 1px solid grey;
+    
 }
 #new-arrivals .product h2{
     background-color: black;
@@ -169,8 +172,8 @@
     padding-bottom: 20px;
     
 }
-#new-arrivals .discover.product div img:hover{
-    background-color: grey;
+#new-arrivals .discover .product div img:hover{
+   
 }
 #new-arrivals .product div p:hover{
     color: darkgoldenrod;
@@ -376,9 +379,7 @@
      padding-bottom: 20px;
      
  }
- #new-arrivals .discover.product div img:hover{
-     background-color: grey;
- }
+
  #fragrances .trending div p:hover{
      color: darkgoldenrod;
  }
@@ -386,26 +387,139 @@
  /*<!--================[seventh section starts here]==========-->*/
 #footprint{
     width: 100%;
-    height: 50vh;
-    border: 1px solid black;
+    height: auto;
+   /* border: 1px solid black;*/
     margin-top: 40px;
+    flex-wrap: wrap;
+}
+#footprint .global {
+    width: 100%;
+    height:  auto;
+  /*  border: 1px solid black;*/
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
     font-size: 30px;
-    display: flex;
-    justify-content: center;
-    font-size: 20px;
     background-color: aliceblue;
     flex-direction: column;
     flex-wrap: wrap;
+}
+#footprint .global  h2{
+   font-size: 40px;
+    color: sienna;
+}
+#footprint .global div  h2:hover{
+    color: black;
+}
+#footprint.delivery div{
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+
+}
+
+/*<!--================[seventh section end here]==========-->*/
+#delivery{
+    width: 100%;
+    height: auto;
+  /*  border: 1px solid black;*/
+    margin-top: 40px;
+    
+}
+#delivery .inform {
+    width: 100%;
+    height:  50vh;
+ /*   border: 1px solid black;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+#delivery .inform div{
+    width: 700px;
+    height: 500px;
+   border-right: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-direction: column;
+   font-size: 35px;
+
+    
+}
+#delivery .inform div i{
+   font-size:  50px;
+   color: sienna;
+}
+/*!--================[eightth section end here]==========-->*/
+/* <!--=====================[MAIN TAG END]===================-->*/
+ /*<!--=======================[FOOTER STARTS HERE]==============-->*/
+#contact {
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    padding-top: 60px;
+    background-color: black;
+}
+#contact p{
+   font-size: 30px;
+   color: aliceblue;
+}
+
+#contact center input{
+        width:800PX;
+        height:7vh;
+        font-size: 30px;
+        padding-left: 20px;
+}
+#contact button{
+    font-size: 60px;
+    background-color: goldenrod;
+    color: aliceblue;
+    margin-top: 10px;
+   
+}
+#contact button i{
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#contact .signup div{
+    width: 100%;
+    height: 700px;
+    border-right: 1px solid aliceblue;
+    flex-direction: column;
+    padding-top: 40px;
+    color: aliceblue;
+   
+}
+#contact .signup {
+    display: flex;
+    justify-content: center;
     align-items: center;
     
 }
-
-#footprint h2{
-    
+#contact .signup  i{
+    font-size: 30px;
+    background-color: black;
+    padding-top: 20px;
+     padding-left: 20px;
+     padding-right: 20px;
+     padding-bottom: 20px;
+      border-radius: 100%;
+      font-size: 50px;
+      color: aliceblue;
+      border: 5px solid aliceblue;
+}
+#contact .signup i:hover{
+    background-color: goldenrod;
+    border: 5px solid darkred;
+}  
+#contact .signup h2{
+    font-size: 30px;
+}
+#contact .signup h2:hover{
     color: sienna;
 }
-#footprint h2:hover{
-    color: black;
-}
-/*<!--================[seventh section end here]==========-->*/
-
