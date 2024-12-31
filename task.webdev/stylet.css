@@ -127,6 +127,7 @@
 #new-arrivals .discover  div h1{
     font-family: "Charm", serif;
     font-size: 70px;
+    text-shadow: 25px 25px 30px lightslategrey;
 }
 #new-arrivals .discover  div h1{
     margin-bottom: 30px;
@@ -172,7 +173,8 @@
     padding-bottom: 20px;
     
 }
-#new-arrivals .discover .product div img:hover{
+#new-arrivals .product div img:hover{
+   scale: 1.1;
    
 }
 #new-arrivals .product div p:hover{
@@ -221,6 +223,7 @@
     justify-content: center;
     align-items: center;
 }
+/*--=============[third section end]==================  -->*/
 /*================[fourth section starts here]==========*/
 #brands{
     width: 100%;
@@ -235,6 +238,7 @@
     font-size: 70px;
     margin-bottom: 40px;
     font-family: "Charm", serif;
+    text-shadow: 25px 25px 30px lightslategrey;
    
 
    
@@ -281,6 +285,7 @@
     font-size: 70px;
     margin-bottom: 40px;
     font-family: "Charm", serif;
+    text-shadow: 25px 25px 30px lightslategrey;
     
     
 }
@@ -305,6 +310,7 @@
 }
 #gifting .gift-container div img:hover{
     background-color: gainsboro;
+    scale: 1.1;
   
 }
 #gifting .gift-container div h2{
@@ -341,6 +347,7 @@
 #fragrances .journey div h1{
     font-size: 70px;
     font-family: "Charm", serif;
+    text-shadow: 25px 25px 30px lightslategrey;
 }
 
 #fragrances .trending {
@@ -378,6 +385,9 @@
      padding-top: 20px;
      padding-bottom: 20px;
      
+ }
+ #fragrances .trending div img:hover{
+    scale: 1.1;
  }
 
  #fragrances .trending div p:hover{
@@ -461,6 +471,7 @@
     border: 1px solid black;
     padding-top: 60px;
     background-color: black;
+    flex-wrap: wrap;
 }
 #contact p{
    font-size: 30px;
@@ -477,7 +488,7 @@
     font-size: 60px;
     background-color: goldenrod;
     color: aliceblue;
-    margin-top: 10px;
+  
    
 }
 #contact button i{
@@ -501,8 +512,14 @@
     align-items: center;
     
 }
+#contact .signup h1{
+    transition: all 3s ease;
+}
+#contact .signup h1:hover{
+    color: sienna;
+}
 #contact .signup  i{
-    font-size: 30px;
+    font-size: 20px;
     background-color: black;
     padding-top: 20px;
      padding-left: 20px;
@@ -519,7 +536,493 @@
 }  
 #contact .signup h2{
     font-size: 30px;
+    transition: all 3s ease;
 }
 #contact .signup h2:hover{
     color: sienna;
+}
+#inp{
+    display: none;
+}
+#bars{
+    display: none;
+}
+/*<!--=======================[FOOTER end HERE]==============-->*/
+/*===============[MEDIA QUERY STARTS HERE]===========*/
+@media (max-width:450px){
+    #heading nav .contains ul{
+        display: none;
+    }
+    #inp:checked~ #heading nav .contains ul{
+        display: flex;
+       flex-direction: column;
+        position: absolute;
+        top: 12%;
+        right:7%;
+        padding: 20px;
+        border-radius: 10px;
+        background-color: aliceblue;
+         line-height: 5%;
+    }
+    #heading nav .contains ul{
+        font-size: 10px;
+    }
+    #bars{
+        display: block;
+        position: absolute;
+        top: 3%;
+        right: 9%;
+        font-size: 35px;
+        color: aliceblue;
+        z-index: 50;
+    }
+    #heading #head marquee{
+        display: none;
+    }
+ /*--================[second section starts here]======--*/
+#new-arrivals{
+    width: 100%;
+    height: auto;
+  /*  border: 1px solid black;*/
+}
+#new-arrivals .discover{
+    margin-top: 70px;
+  /*  border: 1px solid black;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+      font-size: 30px;
+}
+
+#new-arrivals .discover  div h3{
+    border: 1px solid sienna;
+    border-radius: 100%;
+    color: sienna;
+}
+#new-arrivals .discover  div h1{
+    font-family: "Charm", serif;
+    font-size: 40px;
+    text-shadow: 25px 25px 30px lightslategrey;
+}
+#new-arrivals .discover  div h1{
+    margin-bottom: 30px;
+}
+#new-arrivals .discover h3:hover{
+    background-color: wheat;
+}
+#new-arrivals .product {
+   width: 100%;
+   height: auto;
+ /*   border: 1px solid black;*/
+   
+}
+#new-arrivals .product  div{
+    width: 100%;
+    height: auto;
+  /*  border: 1px solid black;*/
+    font-size: 20px;
+    flex-wrap: wrap;
+    
+  
+   
+}
+#new-arrivals .product{
+    display: grid;
+    grid-template-columns: repeat(7,100%);
+    align-items: center;
+    overflow-x: scroll;
+   scrollbar-width: none;
+   gap: 30px;
+   flex-wrap: wrap;
+  
+}
+#new-arrivals .product img{
+    width: 100%;
+    height: 600px;
+    border: 1px solid grey;
+    
+}
+#new-arrivals .product h2{
+    background-color: black;
+    color: antiquewhite;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+/*new-arrivals .product div img:hover{
+   scale: 1.1;
+   
+}*/
+#new-arrivals .product div p:hover{
+    color: darkgoldenrod;
+}
+
+
+/*===============[second section end]===========*/
+/*-=============[third section starts]=================*/
+#best-seller{
+    width: 100%;
+    height: auto;
+ /*   border: 1px solid black;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#best-seller .content div{
+    width: 100%;
+    height: 735px;
+  /* border: 1px solid black;*/
+     flex-wrap: wrap;
+   
+   
+}
+
+
+#best-seller .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+#best-seller .content div img{
+    width: 100%;
+    height: 700px;
+}
+#best-seller .content div h1{
+    font-size: 40px;
+    transition: all 2s ease-in-out;
+    text-align: center;
+}
+#best-seller .content div h1:hover{
+    color: sienna;
+}
+#best-seller .categories h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*--=============[third section end]==================  -->*/
+/*================[fourth section starts here]==========*/
+#brands{
+    width: 100%;
+    height: auto;
+  /*  border: 1px solid black;*/
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+#brands .categories div h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    margin-bottom: 40px;
+    font-family: "Charm", serif;
+    text-shadow: 25px 25px 30px lightslategrey;
+   
+
+   
+}
+#brands .brand div{
+    width: 400px;
+    height: 400px;
+   /* border: 1px solid black;*/
+    border-radius: 100%;
+    flex-wrap: wrap;
+    
+}
+#brands .brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+#brands .brand div img{
+    width: 400px;
+    height: 400px;
+    border: 1px groove grey;
+    border-radius: 100%;
+   
+}
+#brands .brand div h2{
+    font-size: 30px;
+}
+/*================[fourth section ends here]==========*/
+/*-================[fifth section starts here]==========-*/
+#gifting{
+    width: 100%;
+    height: auto;
+   /* border: 1px solid black;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    
+}
+#gifting .gift-head div h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+  /*  margin-bottom: 40px;*/
+    font-family: "Charm", serif;
+    text-shadow: 25px 25px 30px lightslategrey;
+    
+    
+}
+#gifting .gift-container div{
+    width: 100%;
+    height: 840px;
+  /*  border: 1px solid black;*/
+   font-size: 20px;
+   flex-wrap: wrap;
+}
+#gifting .gift-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+#gifting .gift-container div img{
+    width:100%;
+    height: 600px;
+    border: 1px solid grey;
+
+}
+#gifting .gift-container div img:hover{
+    background-color: gainsboro;
+    scale: 1.1;
+  
+}
+#gifting .gift-container div h2{
+    background-color: black;
+    color: antiquewhite;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  
+}
+#gifting .gift-container div p:hover{
+     color: darkgoldenrod;
+}
+/*--================[fifth section starts here]==========-*/
+/*--================[sixth section starts here]==========-*/
+#fragrances{
+    width: 100%;
+    height: auto;
+ /*   border: 1px solid black;*/
+}
+#fragrances .journey {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+      font-size: 30px;
+
+}
+#fragrances .journey div h3{
+   color: sienna;
+}
+#fragrances .journey div h1{
+    font-size: 50px;
+    font-family: "Charm", serif;
+    text-shadow: 25px 25px 30px lightslategrey;
+}
+
+#fragrances .trending {
+    width: 100%;
+    height: auto;
+  /*   border: 1px solid black;*/
+  margin-top: 40px;
+  
+ }
+ #fragrances .trending  div{
+     width: 400px;
+     height: auto;
+   /*  border: 1px solid black;*/
+     font-size: 20px;
+   
+    
+ }
+ #fragrances .trending{
+     display: grid;
+     grid-template-columns: repeat(7,400px);
+     align-items: center;
+     overflow-x: scroll;
+    scrollbar-width: none;
+    gap: 30px;
+    flex-wrap: wrap;
+ }
+ #fragrances .trending img{
+     width: 400px;
+     height: 600px;
+     border: 1px solid grey;
+ }
+ #fragrances .trending h2{
+     background-color: black;
+     color: antiquewhite;
+     padding-top: 20px;
+     padding-bottom: 20px;
+     
+ }
+/* #fragrances .trending div img:hover{
+    scale: 1.1;
+ }*/
+
+ #fragrances .trending div p:hover{
+     color: darkgoldenrod;
+ }
+ /* <!--================[sixth section starts here]==========-->*/
+/*<!--================[seventh section starts here]==========-->*/
+#footprint{
+    width: 100%;
+    height: auto;
+   /* border: 1px solid black;*/
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+#footprint .global {
+    width: 100%;
+    height:  auto;
+  /*  border: 1px solid black;*/
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+    font-size: 30px;
+    background-color: aliceblue;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#footprint .global  h2{
+   font-size: 40px;
+    color: sienna;
+}
+#footprint .global div  h2:hover{
+    color: black;
+}
+
+
+/*<!--================[seventh section end here]==========-->*/
+#delivery{
+    width: 100%;
+    height: auto;
+  /*  border: 1px solid black;*/
+    margin-top: 40px;
+    flex-wrap: wrap;
+    
+}
+#delivery .inform {
+    width: 100%;
+    height:  auto;
+ /*   border: 1px solid black;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+#delivery .inform div{
+    width: 100%;
+    height: 500px;
+   border-right: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-direction: column;
+   font-size: 35px;
+
+    
+}
+#delivery .inform div i{
+   font-size:  50px;
+   color: sienna;
+}
+/*!--================[eightth section end here]==========-->*/
+/* <!--=====================[MAIN TAG END]===================-->*/
+#contact {
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    padding-top: 60px;
+    background-color: black;
+    flex-wrap: wrap;
+}
+#contact p{
+   font-size: 30px;
+   color: aliceblue;
+}
+
+#contact center input{
+        width:300PX;
+        height:7vh;
+        font-size: 30px;
+        padding-left: 20px;
+}
+#contact button{
+    font-size: 40px;
+    background-color: goldenrod;
+    color: aliceblue;
+  
+   
+}
+#contact button i{
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#contact .signup div{
+    width: 100%;
+    height: 700px;
+    border-right: 1px solid aliceblue;
+    flex-direction: column;
+    padding-top: 40px;
+    color: aliceblue;
+   
+}
+#contact .signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+#contact .signup h1{
+    transition: all 3s ease;
+}
+#contact .signup h1:hover{
+    color: sienna;
+}
+#contact .signup  i{
+    
+    background-color: black;
+    padding-top: 20px;
+     padding-left: 20px;
+     padding-right: 20px;
+     padding-bottom: 20px;
+      border-radius: 100%;
+      font-size: 20px;
+      color: aliceblue;
+      border: 5px solid aliceblue;
+}
+#contact .signup i:hover{
+    background-color: goldenrod;
+    border: 5px solid darkred;
+}  
+#contact .signup h2{
+    font-size: 30px;
+    transition: all 3s ease;
+}
+#contact .signup h2:hover{
+    color: sienna;
+}
+
 }
