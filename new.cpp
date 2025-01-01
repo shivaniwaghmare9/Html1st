@@ -153,6 +153,27 @@ int main() {
       cout<<arr[i];
   }
 }
+// Online C++ compiler to run C++ program online
+//target and find indexing 
+#include <iostream>
+using namespace std;
+
+ int targetsum(int arr[], int n, int target){
+     for(int i=0; i<=n; ++i){
+         for (int j=i+1; j<=n; ++j){
+             if(arr[i]+arr[j]==target){
+                 cout<<i<<j<<endl;
+             }
+         }
+     }
+     return 0;
+ }
+ int main() {
+     int arr[]={11,3,25,4,17,5};
+     int target=30;
+     int n=5;
+     targetsum(arr,n,target);
+}
       
       
   
