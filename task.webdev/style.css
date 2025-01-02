@@ -560,7 +560,7 @@
 }
 /*<!--=======================[FOOTER end HERE]==============-->*/
 /*===============[MEDIA QUERY STARTS HERE]===========*/
-@media (max-width:500px){
+@media (max-width:450px){
     #heading nav .contains ul{
         display: none;
     }
@@ -637,7 +637,7 @@
 
 #new-arrivals .discover  div h1{
     font-family: "Charm", serif;
-    font-size: 40px;
+    font-size: 30px;
     text-shadow: 25px 25px 30px lightslategrey;
 }
 #new-arrivals .discover  div h1{
@@ -683,6 +683,7 @@
     color: antiquewhite;
     padding-top: 10px;
     padding-bottom: 10px;
+    font-size: 20px;
     
 }
 /*new-arrivals .product div img:hover{
@@ -704,6 +705,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    margin-top: 20px;
 }
 
 #best-seller .content div{
@@ -842,6 +844,7 @@
     align-items: center;
     padding-top: 10px;
     padding-bottom: 10px;
+    font-size: 20px;
   
 }
 #gifting .gift-container div p:hover{
@@ -857,14 +860,15 @@
 #fragrances .journey {
     display: flex;
     justify-content: center;
-   /* align-items: center;*/
+    align-items: center;
     flex-direction: column;
       font-size: 20px;
-      text-align: center;
+  /*    text-align: center;*/
 
 }
 #fragrances .journey div h3{
    color: sienna;
+   font-size: 30px;
 }
 #fragrances .journey div h1{
     font-size: 35px;
@@ -890,7 +894,7 @@
  #fragrances .trending{
      display: grid;
      grid-template-columns: repeat(7,100%);
-    /* align-items: center;*/
+     align-items: center;
      overflow-x: scroll;
     scrollbar-width: none;
     gap: 30px;
@@ -906,6 +910,7 @@
      color: antiquewhite;
      padding-top: 10px;
      padding-bottom: 10px;
+     font-size: 20px;
      
  }
  #fragrances .journey div p  h2 br{
