@@ -25,6 +25,7 @@ int main() {
 }
 
 // Online C++ compiler to run C++ program online
+//=======unique array=========
 #include <iostream>
 using namespace std;
 int main() {
@@ -33,21 +34,24 @@ int main() {
  {
      bool dup=false;
      for(int j=i+1; j<6; ++j)
-     {
-         if(arr[i]==arr[j] && arr[i]!=-1)
+    {
+       if(arr[i]==arr[j] && arr[i]!=-1)
          {
              arr[j]=-1;
              dup=true;
          }
      
      if(!dup  && arr[i]!=-1)
-     {
+        {
          cout<<arr[i];
-     }
- }
+        }
+   
+    }
+  }
 }
 
 // Online C++ compiler to run C++ program online
+//==========palindrome=======
 #include <iostream>
 using namespace std;
 int main() {
@@ -63,7 +67,7 @@ int main() {
 }
 cout<<"pallindrome";
 }
-========acending desending==========
+//========acending desending==========
 // Online C++ compiler to run C++ program online
 #include <iostream>
 using namespace std;
@@ -80,6 +84,9 @@ int main() {
     }   
     cout<<"asending";
 }
+#include <iostream>
+using namespace std;
+int main() {
 int arr[]={1,0,2,3,0};
     for(int i=0; i<4; ++i)
     {
@@ -174,6 +181,54 @@ using namespace std;
      int n=5;
      targetsum(arr,n,target);
 }
+// Online C++ compiler to run C++ program online
+//goto label
+#include <iostream>
+using namespace std;
+int main() {
+     cout<<"shivani";
+     cout<<endl;
+       goto label;
+     cout<<"bhavna";
+      label:
+     cout<<"arti"<<endl;
+     
+     cout<<"ram";
+}
+// Online C++ compiler to run C++ program online
+// switch from(int type)
+  #include <iostream>
+  using namespace std;
+  int main() {
+    int op=3;
+    switch (op)
+    {
+        case 1:cout<<"orange";
+     break;
+         case 2:cout<<"apple";
+        break;
+        case 3:cout<<"mango";
+       break;
+     default:cout<<"invalid input";
+   }
+     
+}
+// (char tpye)
+#include <iostream>
+using namespace std;
+int main() {
+    char op='b';
+    switch (op)
+    {
+        case 'a':cout<<"orange";
+        break;
+        case 'b':cout<<"apple";
+        break;
+         case 'c':cout<<"mango";
+        break;
+       default:cout<<"invalid input";
+   }
+ }
       
       
   
