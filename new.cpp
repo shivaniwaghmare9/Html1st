@@ -193,7 +193,7 @@ int main() {
     
 }
 // Online C++ compiler to run C++ program online
-//array(maximum)
+//array(minimum)
 #include <iostream>
 using namespace std;
 int main() {
@@ -207,6 +207,31 @@ int main() {
             }
         }
         cout<<min;
+    
+}
+// Online C++ compiler to run C++ program online
+//array(duplicate)
+#include <iostream>
+using namespace std;
+int main() {
+    int arr[]={1,20,3,60,1,20};
+    for (int i=0; i<6; ++i)
+       {
+            bool dup=false;
+    for(int j=i+1; j<6; ++j)
+     {
+         if(arr[i]==arr[j] && arr[i]!=-1)      
+         {
+             arr[j]=-1;
+             dup=true;
+         }
+     }
+     if(dup)
+     {
+         cout<<arr[i]<<endl;
+     }
+        }
+        
     
 }
 
