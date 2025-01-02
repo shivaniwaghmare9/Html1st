@@ -1,4 +1,53 @@
 // Online C++ compiler to run C++ program online
+//goto label
+#include <iostream>
+using namespace std;
+int main() {
+     cout<<"shivani";
+     cout<<endl;
+       goto label;
+     cout<<"bhavna";
+      label:
+     cout<<"arti"<<endl;
+     
+     cout<<"ram";
+}
+// Online C++ compiler to run C++ program online
+// switch from(int type)
+  #include <iostream>
+  using namespace std;
+  int main() {
+    int op=3;
+    switch (op)
+    {
+        case 1:cout<<"orange";
+     break;
+         case 2:cout<<"apple";
+        break;
+        case 3:cout<<"mango";
+       break;
+     default:cout<<"invalid input";
+   }
+     
+}
+// (char tpye)
+#include <iostream>
+using namespace std;
+int main() {
+    char op='b';
+    switch (op)
+    {
+        case 'a':cout<<"orange";
+        break;
+        case 'b':cout<<"apple";
+        break;
+         case 'c':cout<<"mango";
+        break;
+       default:cout<<"invalid input";
+   }
+ }
+
+// Online C++ compiler to run C++ program online
 #include <iostream>
 using namespace std;
 int main() {
@@ -22,6 +71,143 @@ int main() {
         }
         cout<<endl;
     }
+}
+//================[ARRAY]========================
+  // Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+int main() {
+   int arr[5];
+  cout<<"enter 5 values of array";
+   for(int i=0; i<5; ++i)
+  {
+      cin>>arr[i];
+  }
+       
+  for (int i=0; i<5; ++i)
+ {
+   cout<<arr[i];
+ }
+ cout<<arr[8];
+      
+   }
+   //array
+#include <iostream>
+using namespace std;
+int main() {
+   int arr[5]={1,2,3,4,5};
+  cout<<"enter 5 values of array";
+  arr[0]=arr[3]+arr[4];
+  for(int i=0; i<5; ++i)
+  {
+      cout<<arr[i];
+  }
+      
+   }
+   //array (mutation)
+#include <iostream>
+using namespace std;
+int main() {
+   int arr[5]={1,2,3,4,5};
+  cout<<"enter mutation values of array";
+ 
+  for(int i=0; i<5; ++i)
+  {
+  if(arr[i]!=4)
+  {
+      cout<<arr[i]<<"\t";
+  }
+  }
+      
+   }
+   //array (shift)
+#include <iostream>
+using namespace std;
+int main() {
+   int arr[5]={1,2,3,4,5};
+   int j=0;
+  cout<<"enter shift values of array";
+ 
+  for(int i=0; i<5; ++i)
+  {
+  if(arr[i]!=3)
+  {
+      arr[j]=arr[i];
+      j++;
+  }
+  }
+   for(int i=0; i<j; ++i)
+  {
+      cout<<arr[i]<<"\t";
+  }
+  }
+
+//array(comparision)
+#include <iostream>
+using namespace std;
+int main() {
+    int arr[]={1,2,3,1,1};
+    for (int i=0; i<5; ++i)
+    {
+       for(int j=i+1; j<5; ++j) 
+       {
+           if(arr[i]==arr[j])
+           {
+               cout<<arr[i];
+           }
+       }
+    }
+    
+    
+}
+// Online C++ compiler to run C++ program online
+//array(sum)
+#include <iostream>
+using namespace std;
+int main() {
+    int arr[]={1,2,3,4,5};
+    int sum=0;
+    for (int i=0; i<5; ++i)
+    
+        {
+            sum=sum+arr[i];
+        }
+        cout<<sum;
+    
+}
+// Online C++ compiler to run C++ program online
+//array(maximum)
+#include <iostream>
+using namespace std;
+int main() {
+    int arr[]={1,2,3,6,5};
+    int max=0;
+    for (int i=0; i<5; ++i)
+       {
+            if(arr[i]>max)
+            {
+                max=arr[i];
+            }
+        }
+        cout<<max;
+    
+}
+// Online C++ compiler to run C++ program online
+//array(maximum)
+#include <iostream>
+using namespace std;
+int main() {
+    int arr[]={1,20,3,60,5};
+    int min= arr[0];
+    for (int i=0; i<5; ++i)
+       {
+            if(arr[i]<min)
+            {
+                min=arr[i];
+            }
+        }
+        cout<<min;
+    
 }
 
 // Online C++ compiler to run C++ program online
@@ -161,7 +347,7 @@ int main() {
   }
 }
 // Online C++ compiler to run C++ program online
-//target and find indexing 
+//target and find indexing(function) 
 #include <iostream>
 using namespace std;
 
@@ -181,122 +367,9 @@ using namespace std;
      int n=5;
      targetsum(arr,n,target);
 }
-// Online C++ compiler to run C++ program online
-//goto label
-#include <iostream>
-using namespace std;
-int main() {
-     cout<<"shivani";
-     cout<<endl;
-       goto label;
-     cout<<"bhavna";
-      label:
-     cout<<"arti"<<endl;
-     
-     cout<<"ram";
-}
-// Online C++ compiler to run C++ program online
-// switch from(int type)
-  #include <iostream>
-  using namespace std;
-  int main() {
-    int op=3;
-    switch (op)
-    {
-        case 1:cout<<"orange";
-     break;
-         case 2:cout<<"apple";
-        break;
-        case 3:cout<<"mango";
-       break;
-     default:cout<<"invalid input";
-   }
-     
-}
-// (char tpye)
-#include <iostream>
-using namespace std;
-int main() {
-    char op='b';
-    switch (op)
-    {
-        case 'a':cout<<"orange";
-        break;
-        case 'b':cout<<"apple";
-        break;
-         case 'c':cout<<"mango";
-        break;
-       default:cout<<"invalid input";
-   }
- }
- //array
-#include <iostream>
-using namespace std;
-int main() {
-   int arr[5];
-  cout<<"enter 5 values of array";
-   for(int i=0; i<5; ++i)
-  {
-      cin>>arr[i];
-  }
-       
-  for (int i=0; i<5; ++i)
- {
-   cout<<arr[i];
- }
- cout<<arr[8];
-      
-   }
-   //array
-#include <iostream>
-using namespace std;
-int main() {
-   int arr[5]={1,2,3,4,5};
-  cout<<"enter 5 values of array";
-  arr[0]=arr[3]+arr[4];
-  for(int i=0; i<5; ++i)
-  {
-      cout<<arr[i];
-  }
-      
-   }
-   //array (mutation)
-#include <iostream>
-using namespace std;
-int main() {
-   int arr[5]={1,2,3,4,5};
-  cout<<"enter mutation values of array";
+
  
-  for(int i=0; i<5; ++i)
-  {
-  if(arr[i]!=4)
-  {
-      cout<<arr[i]<<"\t";
-  }
-  }
-      
-   }
-   //array (shift)
-#include <iostream>
-using namespace std;
-int main() {
-   int arr[5]={1,2,3,4,5};
-   int j=0;
-  cout<<"enter shift values of array";
- 
-  for(int i=0; i<5; ++i)
-  {
-  if(arr[i]!=3)
-  {
-      arr[j]=arr[i];
-      j++;
-  }
-  }
-   for(int i=0; i<j; ++i)
-  {
-      cout<<arr[i]<<"\t";
-  }
-  }
+
       
       
   
