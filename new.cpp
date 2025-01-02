@@ -229,6 +229,74 @@ int main() {
        default:cout<<"invalid input";
    }
  }
+ //array
+#include <iostream>
+using namespace std;
+int main() {
+   int arr[5];
+  cout<<"enter 5 values of array";
+   for(int i=0; i<5; ++i)
+  {
+      cin>>arr[i];
+  }
+       
+  for (int i=0; i<5; ++i)
+ {
+   cout<<arr[i];
+ }
+ cout<<arr[8];
+      
+   }
+   //array
+#include <iostream>
+using namespace std;
+int main() {
+   int arr[5]={1,2,3,4,5};
+  cout<<"enter 5 values of array";
+  arr[0]=arr[3]+arr[4];
+  for(int i=0; i<5; ++i)
+  {
+      cout<<arr[i];
+  }
+      
+   }
+   //array (mutation)
+#include <iostream>
+using namespace std;
+int main() {
+   int arr[5]={1,2,3,4,5};
+  cout<<"enter mutation values of array";
+ 
+  for(int i=0; i<5; ++i)
+  {
+  if(arr[i]!=4)
+  {
+      cout<<arr[i]<<"\t";
+  }
+  }
+      
+   }
+   //array (shift)
+#include <iostream>
+using namespace std;
+int main() {
+   int arr[5]={1,2,3,4,5};
+   int j=0;
+  cout<<"enter shift values of array";
+ 
+  for(int i=0; i<5; ++i)
+  {
+  if(arr[i]!=3)
+  {
+      arr[j]=arr[i];
+      j++;
+  }
+  }
+   for(int i=0; i<j; ++i)
+  {
+      cout<<arr[i]<<"\t";
+  }
+  }
       
       
   
