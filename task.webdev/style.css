@@ -600,6 +600,7 @@
     }
     #heading #head marquee{
         display: none;
+        
     }
     #logo .icons {
         display: flex;

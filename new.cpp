@@ -260,6 +260,51 @@ int main() {
     }
   }
 }
+// Online C++ compiler to run C++ program online
+//Array (frequnce)
+#include <iostream>
+using namespace std;
+int main(){
+    int arr[]={1,2,3,3,2};
+    for(int i=0; i<5; ++i)
+    {
+        int count=1;
+        for(int j=i+1; j<5; ++j)
+        {
+            if(arr[i]==arr[j])
+            {
+                count++;
+                arr[j]=-1;
+            }
+        }
+        if(arr[i]!=-1)
+        {
+            cout<<"the freq of "<<arr[i]<<"is"<<count<<endl;
+        }
+    }
+}
+
+
+  // Online C++ compiler to run C++ program online
+//Array (reverse)
+#include <iostream>
+using namespace std;
+int main(){
+    int arr[]={1,2,3,3,2};
+    for(int i=0; i<5/2; ++i)
+    {
+       int temp;
+       temp=arr[i];
+       arr[i]=arr[5-i-1];
+       arr[5-i-1]=temp;
+}
+for(int i=0; i<5; ++i)
+{
+    cout<<arr[i];
+}
+}
+
+  
 
 // Online C++ compiler to run C++ program online
 //==========palindrome=======
@@ -393,7 +438,7 @@ using namespace std;
      targetsum(arr,n,target);
 }
 //===========[STRING]==================
-//string (revers)
+//string (reverse)
  #include <iostream>
 using namespace std;
 int main() {
@@ -409,6 +454,28 @@ int main() {
  }
  cout<<str;
  return 0;
+}
+// Online C++ compiler to run C++ program online
+//string revers with (function)
+#include <iostream>
+using namespace std;
+
+ string reverse(string str){
+     int i=0;
+     int j=str .length()-1;
+     while(i<=j){
+         char temp=str[i];
+         str[i]=str[j];
+         str[j]=temp;
+         i++;
+         j--;
+     }
+     return str;
+ }
+ int main() {
+     string st="welcome";
+     cout<<reverse(st);
+     return 0;
 }
 
  
