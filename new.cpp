@@ -323,6 +323,32 @@ int main() {
 }
 cout<<"pallindrome";
 }
+// Online C++ compiler to run C++ program online
+//Array (move-zeros to the end)
+#include <iostream>
+using namespace std;
+int main(){
+    int j=0;
+    int arr[]={1,2,0,4,0};
+    for(int i=0; i<5; ++i)
+    {
+       if(arr[i]!=0)
+       {
+           arr[j]=arr[i];
+           j++;
+       }
+    }
+for(int i=j; i<5; ++i)
+{
+    arr[i]=0;
+}
+for(int i=0; i<5; ++i)
+{
+    cout<<arr[i];
+}
+}
+
+  
 //========acending desending==========
 // Online C++ compiler to run C++ program online
 #include <iostream>
@@ -369,6 +395,25 @@ int main() {
         cout<<arr[i]+1<<endl;
         }
     }
+}
+// Online C++ compiler to run C++ program online
+//Array (double missing number)
+#include <iostream>
+using namespace std;
+int main(){
+    int j=0;
+    int arr[]={10,20,0,4,0};
+    for(int i=0; i<5; ++i)
+    {
+       if(arr[i+1]-arr[i]>1)
+       {
+           for(int j=arr[i]+1; j<arr[i+1];++j)
+           {
+               cout<<j<<endl;
+           }
+       } 
+    }
+
 }
 // Online C++ compiler to run C++ program online
 //keeping first occursion
