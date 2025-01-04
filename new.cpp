@@ -347,6 +347,26 @@ for(int i=0; i<5; ++i)
     cout<<arr[i];
 }
 }
+// Online C++ compiler to run C++ program online
+//srting (balance paratheleses)//return type
+#include <iostream>
+using namespace std;
+int main(){
+    int arr[]={1,3,10,20,5};
+    int target=30;
+    for(int i=0; i<5;++i)
+    
+    {
+        if(arr[i]==target)
+        {
+            cout<<"yes";
+            return 0;
+        }
+    }
+    cout<<"no";
+        
+    
+}
 
   
 //========acending desending==========
@@ -630,6 +650,39 @@ int main(){
      else {
          cout<<"not";
      }
+}
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+int main() {
+  string str1="now";
+  string str2="won";
+  
+  if(str1.length()!=str2.length()){
+      cout<<"not an anagram";
+      return 0;
+  }
+  for(int i=0; i<str1.length(); i++){
+  bool found=false;
+      for(int j=0; j<str2.length(); ++j){
+          if(str1[i]==str2[j]){
+              str2[j]='#';
+              found=true;
+              break;
+          }
+          
+      }
+  if(!found){
+      cout<<"not anagram";
+      return 0;
+  }
+  }
+  cout<<"anagram";
+  return 0;
+  
+  
+  
+  
 }
   
   
