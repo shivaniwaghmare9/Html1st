@@ -522,6 +522,117 @@ using namespace std;
      cout<<reverse(st);
      return 0;
 }
+// Online C++ compiler to run C++ program online
+//srting (balance paratheleses)BASIC
+#include <iostream>
+using namespace std;
+void bp(string str)
+{
+    cout<<"bp";
+}
+int main(){
+    string str="({[]})";
+    bp (str);
+}
+  // Online C++ compiler to run C++ program online
+//srting (balance paratheleses)
+#include <iostream>
+using namespace std;
+void bp(string str)
+{
+    int circle=0;
+    int square=0;
+    int curly=0;
+    for(int i=0; i<str.length(); ++i)
+{
+char c=str[i];
+if(c=='(') circle++;
+else if (c=='[') square++;
+else if (c=='{') curly++;
+else if (c==')') circle--;
+else if (c==']') square--;
+else if (c=='}') curly--;
+}
+if(circle==0 && square==0 && curly==0)
+{
+    cout<<"balanced";
+}
+else
+{
+    cout<<"not";
+}
+}
+int main(){
+    string str="({[]})";
+    bp (str);
+}
+  // Online C++ compiler to run C++ program online
+//srting (balance paratheleses)//not balanced
+#include <iostream>
+using namespace std;
+void bp(string str)
+{
+    int circle=0;
+    int square=0;
+    int curly=0;
+    for(int i=0; i<str.length(); ++i)
+{
+char c=str[i];
+if(c=='(') circle++;
+else if (c=='[') square++;
+else if (c=='{') curly++;
+else if (c==')') circle--;
+else if (c==']') square--;
+else if (c=='}') curly--;
+}
+if(circle==0 && square==0 && curly==0)
+{
+    cout<<"balanced";
+}
+else
+{
+    cout<<"not";
+}
+}
+int main(){
+    string str="({[]}";
+    bp (str);
+}
+// Online C++ compiler to run C++ program online
+//srting (balance paratheleses)//return type
+#include <iostream>
+using namespace std;
+bool bp(string str)
+{
+    int circle=0;
+    int square=0;
+    int curly=0;
+    for(int i=0; i<str.length(); ++i)
+{
+char c=str[i];
+if(c=='(') circle++;
+else if (c=='[') square++;
+else if (c=='{') curly++;
+else if (c==')') circle--;
+else if (c==']') square--;
+else if (c=='}') curly--;
+}
+if(circle==0 && square==0 && curly==0) return true;
+else return false;
+
+}
+int main(){
+    string str="({[]})";
+     if (bp (str))
+     {
+         cout<<"bp";
+     }
+     else {
+         cout<<"not";
+     }
+}
+  
+  
 
  
 
