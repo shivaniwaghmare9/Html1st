@@ -680,10 +680,53 @@ int main() {
   cout<<"anagram";
   return 0;
   
-  
-  
+}
+///=====================STRUCTURE===========================
+// Online C++ compiler to run C++ program online
+///structure
+#include <iostream>
+using namespace std;
+struct info{
+    string name="shivani";
+    int roll=123;
+    char section='c';
+    float marks=50.23;
+};
+int main() {
+    info a;
+    cout<<a.name<<endl;
+    cout<<a.roll<<endl;
+    cout<<a.section;
+}
+// Online C++ compiler to run C++ program online
+///structure
+#include <iostream>
+using namespace std;
+struct info{
+    string name;
+    int roll;
+    char section;
+    float marks;
+};
+int main() {
+    info a;
+    a.roll=12;
+    info b;
+    b.name="shivani";
+    info c;
+    c.section='d';
+    info d;
+    d.marks=50.43;
+    
+ 
+    cout<<c.section<<endl;
+    cout<<a.roll<<endl;
+     cout<<b.name<<endl;
+     
+       cout<<d.marks;
   
 }
+
   
   
 
