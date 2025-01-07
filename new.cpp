@@ -725,6 +725,14 @@ int main() {
      
        cout<<d.marks;
   
+///=====================POINTER====================
+///pointer
+#include <iostream>
+using namespace std;
+int main(){
+    int a =12;
+    int *ptr=&a;
+    cout<<*ptr;     //REMOVE THE*SO PRINT ADDRESSS
 }
 
   
