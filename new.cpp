@@ -830,7 +830,10 @@ int main() {
     a.link=&b;
     b.link=&c;
     cout<<b.link->roll<<endl;
-   cout<<b.link->section;
+   cout<<b.link->section<<endl;
+    cout<<a.link->roll<<endl;
+    cout<<a.link->section;
+   
    
 }
   
