@@ -722,8 +722,8 @@ int main() {
     cout<<c.section<<endl;
     cout<<a.roll<<endl;
      cout<<b.name<<endl;
-     
-       cout<<d.marks;
+     cout<<d.marks;
+}
   
 ///=====================POINTER====================
 ///pointer
@@ -766,6 +766,41 @@ int main() {
     cout<<sv->roll;
      cout<<sv->name;
  
+}
+// Online C++ compiler to run C++ program online
+//self refrencial  structure
+#include <iostream>
+using namespace std;
+struct info{
+    int roll;
+    char section;
+    string name;
+    struct info *link;
+};
+int main() {
+    //pointer of structure
+    info fv;
+    info sv;
+    fv.link=NULL;
+    fv.roll=420;
+    fv.name="shivani";
+    fv.section='d';
+    
+    sv.link=NULL;
+    sv.roll=424;
+    sv.name="ram";
+    sv.section='f';
+    
+    fv.link=&sv;
+    cout<<fv.link->roll<<endl;
+    cout<<fv.link->section<<endl;  
+    cout<<fv.link->name<<endl;
+ 
+ 
+    sv.link=&fv;
+    cout<<sv.link->roll<<endl;
+    cout<<sv.link->section<<endl;  
+    cout<<sv.link->name;
 }
   
   
