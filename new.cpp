@@ -734,7 +734,39 @@ int main(){
     int *ptr=&a;
     cout<<*ptr;     //REMOVE THE*SO PRINT ADDRESSS
 }
-
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+struct info{
+    int roll=123;
+    char section='c';
+}k;
+int main() {
+  int a=10;
+  int *ptr=&a;
+  cout<<ptr;
+  cout<<*ptr;
+}
+  // Online C++ compiler to run C++ program online
+//pointer of structure
+#include <iostream>
+using namespace std;
+struct info{
+    int roll=123;
+    char section='d';
+    string name="shivani";
+    
+};
+int main() {
+    //pointer of structure
+    info fv;
+    info *sv=&fv;
+    fv.roll=420;
+    fv.section='d';
+    cout<<sv->roll;
+     cout<<sv->name;
+ 
+}
   
   
 
