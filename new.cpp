@@ -802,6 +802,37 @@ int main() {
     cout<<sv.link->section<<endl;  
     cout<<sv.link->name;
 }
+
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+struct info
+{
+    int roll;
+    char section;
+    struct info *link;
+};
+
+int main() {
+    info a;
+    info b;
+    info c;
+    
+    a.link=NULL;
+    a.roll=234;
+    a.section='a';
+    b.link=NULL;
+    b.roll=345;
+    b.section='f';
+    c.link=NULL;
+    c.roll=348;
+    c.section='d';
+    a.link=&b;
+    b.link=&c;
+    cout<<b.link->roll<<endl;
+   cout<<b.link->section;
+   
+}
   
   
 
