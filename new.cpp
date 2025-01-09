@@ -857,6 +857,83 @@ public class NEW
 
 }
 }
+
+//=================[OBJECT ORIENTING PROGRAMMING]=======================
+
+// Online C++ compiler to run C++ program online
+////==========[CLASS [OOPS](BASIC)]==============
+#include <iostream>
+using namespace std;
+class student{
+    public:
+    int a;
+    string name;
+};
+int main() {
+    student obj;
+    obj.a=10;
+    obj.name="shivani";
+    cout<<obj.a<<obj.name;
+   
+}
+// Online C++ compiler to run C++ program online
+////==========[CLASS (BASIC)]==============
+#include <iostream>
+using namespace std;
+class student{
+   
+    int rollno;
+    char name;
+};
+int main() {
+    student obj;
+    cout<<sizeof(obj);
+}
+// Online C++ compiler to run C++ program online
+////==========[class private rakhkar out put lenaa]==============
+#include <iostream>
+using namespace std;
+class student{
+   public:
+    int rollno;
+    string name;
+    
+    void show(int a,string b){
+        rollno=a;
+        name=b;
+        cout<<rollno<<name;
+    }
+};
+int main() {
+    student obj;
+   obj.show(200,"shivani");
+}
+// Online C++ compiler to run C++ program online
+////==========[ user se input  lenaa]==============
+#include <iostream>
+using namespace std;
+class student{
+    public:
+
+    int rollno;
+    string name;
+    char section;
+    
+    void show(){
+       cout<<rollno<<name<<section;
+    }
+};
+int main() {
+    student obj;
+    cout<<"enter your name";
+    cin>>obj.name;
+     cout<<"enter your section"<<endl;
+    cin>>obj.section;
+     cout<<"enter your rollno";
+     cin>>obj.rollno;
+     obj.show();
+
+}
   
 
  
