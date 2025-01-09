@@ -804,6 +804,7 @@ int main() {
 }
 
 // Online C++ compiler to run C++ program online
+//self refrencial structure
 #include <iostream>
 using namespace std;
 struct info
@@ -836,7 +837,26 @@ int main() {
    
    
 }
-  
+  ////======================[JAVA]======================
+  import java.util.Scanner;
+
+public class NEW
+{
+    public static void main(String arg[])
+{
+    Scanner obj = new Scanner(System.in);
+    String name;
+    int age;
+    char bg;
+       System.out.println("enter name,age,bg");
+       name=obj.nextLine();
+       age=Integer.parseInt(obj.nextLine());
+       bg=obj.nextLine().charAt(0);
+
+       System.out.println(name+"  "+age+"  "+bg);
+
+}
+}
   
 
  
