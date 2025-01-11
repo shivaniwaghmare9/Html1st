@@ -934,6 +934,38 @@ int main() {
      obj.show();
 
 }
+
+//============================CONSTRUCTOR===========================
+// Online C++ compiler to run C++ program online
+
+///////////default constructor=====================
+#include <iostream>
+using namespace std;
+class person{
+    private:
+    string name;
+    int age;
+    
+    public:
+    person(){
+    cout<<"constructor called name and age"<<endl;
+    name="shivani";
+    age=12;
+    
+    }
+     void display(){
+        cout<<"name of current object:"<<name<<endl;
+        cout<<"age of current object:"<<age<<endl;
+         
+    }
+   
+};
+
+int main() {
+    person obj;
+    obj.display();
+    
+}
   
 
  
