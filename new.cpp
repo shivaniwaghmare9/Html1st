@@ -1100,6 +1100,62 @@ int main() {
     obj2.show();
    
 }
+// Online C++ compiler to run C++ program online
+////===========DYNAMIC CONSTRUCTOR===========================
+#include <iostream>
+using namespace std;
+class Person{
+      private:
+    int *age;
+    public:
+    Person(int *person_age){
+        cout<<"constructor for age is called"<<endl;
+        //allocating memory
+        age=new int;
+        age=person_age;
+    }
+    
+  
+    void display(){
+        cout<<"Age of current object:"<<*age<<endl;
+        cout<<endl;
+    }
+    
+};
+int main() {
+    int age=25;
+   Person obj1(&age);
+    obj1.display();
+}
+
+// Online C++ compiler to run C++ program online
+
+////===================================ACCESS SPECIFIERS===========================
+
+ // #==THERE ARE THREE TYPES OF ACCESS SPECIFIERS=======
+//**public:--"members
+//**private:
+//**protected
+
+#include <iostream>
+using namespace std;
+class Myclass{
+    public:
+    int x;
+  //  private:      //REMOVE THE PRIVATE COMMET SO OUT-PUT ERROR
+    int y;
+    void display(){
+        cout<<"the value of x:"<<x<<"the value of y:"<<y;
+    }
+    
+};
+int main() {
+   Myclass obj;
+   obj.x=25;
+   obj.y=50;
+   obj.display();
+}
+
 
 
 
