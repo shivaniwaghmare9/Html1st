@@ -1156,6 +1156,36 @@ int main() {
    obj.display();
 }
 
+//##NOTE:=IT IS POSSIBLE TP ACCESS MEMBERS OF A CLASS USING A PUBLIC METHOD INSIDE THE SAME CLASS
+                  //====================ENCAPSULATION=================================
+//(to access a private attribute use public "get" and "set" methods
+
+
+// Online C++ compiler to run C++ program online
+////===========ENCAPSULATION===========================
+#include <iostream>
+using namespace std;
+class Myclass{
+    private:
+    int salary;
+    public:
+    //setter
+    void setsalary(int s){
+        salary=s;
+    }
+    //getter
+    int getsalary(){
+        return salary;
+    }
+    
+    
+};
+int main() {
+   Myclass obj;
+   obj.setsalary(50000);
+   cout<<obj.getsalary();
+}
+
 
 
 
