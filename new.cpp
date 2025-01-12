@@ -996,6 +996,113 @@ int main(){
     obj.display();
 }
 
+// Online C++ compiler to run C++ program online
+///================COPY CONSTRUCTOR=======================
+#include <iostream>
+using namespace std;
+class Student{
+    public:
+    int rollno;
+    string name;
+    //constructor
+    Student(int roll, string n){
+        rollno=roll;
+       name=n;
+    }
+   // copy constructor
+   Student(const Student& existing_student){
+       rollno=existing_student.rollno;
+       name=existing_student.name;
+   }
+   void display(){
+       cout<<"Rollno:"<<rollno<<endl;
+       cout<<"Name:"<<name<<endl;
+   }
+};
+int main() {
+    //create a object
+    Student obj1(204,"shivani");
+    cout<<"original object"<<endl;
+    obj1.display();
+   
+    //create a copy of the object using copy constructor
+     Student obj2(obj1);
+     cout<<"copied object"<<endl;
+     obj2.display();
+   
+}
+//===============TYPE OF COPY CONSTRUCTOR================
+///*SHALLOW COPY 
+///*DEEP COPY
+// Online C++ compiler to run C++ program online
+///=================[shallowcopy]===================
+#include <iostream>
+using namespace std;
+class ShallowCopy{
+    int a,*p;
+    public:
+    ShallowCopy(int x,int y){
+        a=x;
+        p=new int;
+        *p=y;
+    }
+    ShallowCopy(ShallowCopy &obj){
+    a=obj.a;
+    p=obj.p;
+    }
+    void show(){
+        cout<<"value of a"<<a<<endl<<"value of p"<<p;
+    }
+    
+};
+int main() {
+    ShallowCopy obj1(4,5);
+    obj1.show();
+    cout<<endl;
+    ShallowCopy obj2(obj1);
+    obj2.show();
+}
+///=======================DEEP COPY===========================
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+class ShallowCopy{
+    int a,*p;
+    public:
+    ShallowCopy(int x,int y){
+        a=x;
+        p=new int;
+        *p=y;
+    }
+    ShallowCopy(ShallowCopy &obj){
+    a=obj.a;
+    p=obj.p;
+    *p=*(obj.p);
+    }
+    void update(){
+        a=a+1;
+        *p=*p+1;
+    }
+    void show(){
+        cout<<"value of a"<<a<<endl<<"value of p"<<*p;
+    }
+  //  ~ShallowCopy(){        ////REMOVE THE COMMET FOUND OTHER OUT-PUT
+   //     delete p;
+  //  }
+    
+};
+int main() {
+    ShallowCopy obj1(4,5);
+    obj1.show();
+    obj1.update();
+    ShallowCopy obj2(obj1);
+     cout<<endl;
+    obj2.show();
+   
+}
+
+
+
   
 
  
