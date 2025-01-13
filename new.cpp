@@ -1127,6 +1127,34 @@ int main() {
    Person obj1(&age);
     obj1.display();
 }
+// Online C++ compiler to run C++ program online
+//======================DESTRUCTOR=============
+#include <iostream>
+using namespace std;
+class person{
+    private:
+    int a,b;
+    public:
+    //declaring constructor
+    person(int aa, int bb){
+        cout<<"contsructor is called"<<endl;
+        a=aa;
+        b=bb;
+        cout<<"value of a:"<<a<<endl;
+         cout<<"value of b:"<<b<<endl;
+         cout<<endl;
+    }
+     //declaring destructor
+     ~person(){
+          cout<<"destructor is called"<<endl;
+           cout<<"value of a:"<<a<<endl;
+         cout<<"value of b:"<<b<<endl;
+         
+     }
+};
+int main() {
+   person obj(5,6);
+}
 
 // Online C++ compiler to run C++ program online
 
@@ -1158,7 +1186,7 @@ int main() {
 
 //##NOTE:=IT IS POSSIBLE TP ACCESS MEMBERS OF A CLASS USING A PUBLIC METHOD INSIDE THE SAME CLASS
                   //====================ENCAPSULATION=================================
-//(to access a private attribute use public "get" and "set" methods
+//(to access a private attribute use public "get" and "set" methods)
 
 
 // Online C++ compiler to run C++ program online
