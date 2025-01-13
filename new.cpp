@@ -1215,7 +1215,7 @@ int main() {
 }
 
 // Online C++ compiler to run C++ program online
-//========================INHERITENCE====================
+//======================== single INHERITENCE====================
 #include <iostream>
 using namespace std;
 //base(parentc class)
@@ -1265,7 +1265,30 @@ int main() {
    obj.display();
 }
 // Online C++ compiler to run C++ program online
-//========================MULTILEVEL INHERITENCE====================
+//================MULTILEVEL INHERITENCE===================
+#include <iostream>
+using namespace std;
+class A{
+    public: A(){
+   cout<<"constructor of A"<<endl;
+    }
+};
+class B: public A{
+    public:B(){
+        cout<<"constructor of B"<<endl;
+    }
+ };
+ class C: public B {
+    public:C(){
+        cout<<"constructor of C"<<endl;
+    }
+
+};
+int main() {
+    C obj;
+}
+// Online C++ compiler to run C++ program online
+//========================MULTIPLE INHERITENCE  [EXAMPLE 2]====================
 #include <iostream>
 using namespace std;
 //base(parentc class)
@@ -1278,12 +1301,12 @@ class boss{
     }
 };
 //another class
-class parent: public boss{
+class parent {
     public:
      string name="ram";
     int b=12;
 };
-class child: public parent{
+class child: public boss, public parent{
     public:
       void show(){
         cout<<name<<a<<b<<girl;
@@ -1292,6 +1315,119 @@ class child: public parent{
 int main() {
    child obj;
    obj.show();
+}
+//======================OR EXAMPLE [2]=====================// Online C++ compiler to run C++ program online
+//================MULTIPLE INHERITENCE===================
+#include <iostream>
+using namespace std;
+class A{
+    public: A(){
+   cout<<"constructor of A"<<endl;
+    }
+};
+class B{
+    public:B(){
+        cout<<"constructor of B"<<endl;
+    }
+ };
+ class C: public A, public B {
+    public:C(){
+        cout<<"constructor of C"<<endl;
+    }
+
+};
+int main() {
+    C obj;
+}
+
+// Online C++ compiler to run C++ program online
+//================HIERARCHICAL INHERITENCE[EXAMPLE 1]===================
+#include <iostream>
+using namespace std;
+class A{
+    public: A(){
+   cout<<"constructor of A"<<endl;
+    }
+};
+class B: public A{
+    public:B(){
+        cout<<"constructor of B"<<endl;
+    }
+ };
+ class C: public A {
+    public: C(){
+        cout<<"constructor of C"<<endl;
+    }
+
+};
+class D: public C, public B,public A{
+    public: D(){
+        cout<<"constructor of D"<<endl;
+    }
+};
+int main() {
+    C obj;
+}
+// Online C++ compiler to run C++ program online
+//================HIERARCHICAL INHERITENCE[EXAMPLE 2]===================
+#include <iostream>
+using namespace std;
+class teacher{
+    public: 
+    teacher(){
+   cout<<"teacher"<<endl;
+    }
+};
+class student: public teacher{
+    public:
+     student (){
+   cout<<"student"<<endl;
+    }
+ };
+ class person: public teacher {
+    public: 
+     person(){
+   cout<<"person"<<endl;
+    }
+
+};
+class base: public person, public student,public teacher{
+    public: 
+    base (){
+   cout<<"base"<<endl;
+    }
+};
+int main() {
+ base obj;
+   
+}
+// Online C++ compiler to run C++ program online
+//================HYBRID  INHERITENCE===================
+#include <iostream>
+using namespace std;
+class teacher{
+    public: 
+    teacher(){
+   cout<<"teacher"<<endl;
+    }
+};
+class student: public teacher{
+    public:
+     student (){
+   cout<<"student"<<endl;
+    }
+ };
+ class person: public student, public teacher {
+    public: 
+     person(){
+   cout<<"person"<<endl;
+    }
+
+};
+
+int main() {
+ person  obj;
+
 }
 
 
