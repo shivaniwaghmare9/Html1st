@@ -1214,6 +1214,86 @@ int main() {
    cout<<obj.getsalary();
 }
 
+// Online C++ compiler to run C++ program online
+//========================INHERITENCE====================
+#include <iostream>
+using namespace std;
+//base(parentc class)
+class parent{
+    public:
+    string name="shiavni";
+};
+//derived(child class)
+class child: public parent{
+    public:
+    void show(){
+        cout<<name;
+    }
+};
+int main() {
+   child obj;
+   obj.show();
+}
+// Online C++ compiler to run C++ program online
+//========================MULTILEVEL INHERITENCE====================
+#include <iostream>
+using namespace std;
+//base(parentc class)
+class boss{
+    public:
+    string girl="shiavni";
+    int a=10;
+    void display(){
+        cout<<"Hello i aam parent"<<endl;
+    }
+};
+//another class
+class parent: public boss{
+    public:
+     string name="ram";
+    int b=12;
+};
+class child: public parent{
+    public:
+      void show(){
+        cout<<name<<a<<b<<girl;
+    }
+};
+int main() {
+   child obj;
+   obj.show();
+   obj.display();
+}
+// Online C++ compiler to run C++ program online
+//========================MULTILEVEL INHERITENCE====================
+#include <iostream>
+using namespace std;
+//base(parentc class)
+class boss{
+    public:
+    string girl="shiavni";
+    int a=10;
+    void display(){
+        cout<<"Hello i aam parent"<<endl;
+    }
+};
+//another class
+class parent: public boss{
+    public:
+     string name="ram";
+    int b=12;
+};
+class child: public parent{
+    public:
+      void show(){
+        cout<<name<<a<<b<<girl;
+    }
+};
+int main() {
+   child obj;
+   obj.show();
+}
+
 
 
 
