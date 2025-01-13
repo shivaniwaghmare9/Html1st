@@ -1213,9 +1213,19 @@ int main() {
    obj.setsalary(50000);
    cout<<obj.getsalary();
 }
+                             //========[INHERITENCE]==================
+//INHERITENCE==code reguability badane ke liye("Kisi class ki property ko apni class me inherit krna "inheritence" hota hai")
+
+//=======================TYPES OF INHERITENCE=========================
+//*SINGLE INHERITENCE__"Ek child class ek parent class se inherit krta hai"
+//*MULTILEVEL INHERITENCE__"Ek child class apne parent class ke parent class se bhi inherit krta hai"
+//*MULTIPLE INHERITENCE__"Ek child class multiple parent classes se inherit krta hai"
+//*HIERARCHICAL INHERITENCE__"Ek parent class multiple child classes ke liye parent class hota hai"
+//*HYBRID INHERITENCE__Ek child class multiple inheritence types ka combination hota hai"
+
 
 // Online C++ compiler to run C++ program online
-//======================== single INHERITENCE====================
+//========================SINGLE  INHERITENCE====================
 #include <iostream>
 using namespace std;
 //base(parentc class)
