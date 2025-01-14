@@ -1439,6 +1439,62 @@ int main() {
  person  obj;
 
 }
+// Online C++ compiler to run C++ program online
+//=================== diamond problem[hybrid inheritance]=================
+#include <iostream>
+using namespace std;
+class A{
+    public:A(){
+        cout<<"constructor of A"<<endl;
+    }
+};
+class B:   public A{                    //use the vertual
+    public:B(){
+        cout<<"constructor of B"<<endl;
+    }
+};
+class C: public A{                     //use the virtual
+    public:C(){
+        cout<<"constructor of C"<<endl;
+    }
+};
+class D: public B ,public C{
+    public:D(){
+        cout<<"constructor of D"<<endl;
+    }
+};
+int main() {
+  D obj;
+}
+// Online C++ compiler to run C++ program online
+//===================Solution of diamond problem=================
+//===use the virtual kerword use krne par pointer create hoga jo memory ko hold kregaa
+#include <iostream>
+using namespace std;
+class A{
+    public:A(){
+        cout<<"constructor of A"<<endl;
+    }
+};
+class B:  virtual public A{                    //use the vertual
+    public:B(){
+        cout<<"constructor of B"<<endl;
+    }
+};
+class C: virtual public A{                     //use the virtual
+    public:C(){
+        cout<<"constructor of C"<<endl;
+    }
+};
+class D: public B ,public C{
+    public:D(){
+        cout<<"constructor of D"<<endl;
+    }
+};
+int main() {
+  D obj;        
+  cout<<sizeof(B); //size doguna ho jayega all because virtual pointer , bina virtual
+}
 
 
 
