@@ -1533,7 +1533,7 @@ int main() {
 
                         //================POLYMORPHISM==========================
 
-                        
+
 // Online C++ compiler to run C++ program online
 //================[COMPILE TIME(function overloading)]================
 #include <iostream>
@@ -1547,6 +1547,28 @@ void show(int a,int b){
 int main() {
    show(10);
    show(10,11);
+}
+
+// Online C++ compiler to run C++ program online
+//===================[COMPILE TIME oprator overloading]========================
+#include <iostream>
+using namespace std;
+class a{
+    public:int *A;
+    a(int x){
+        A=new int;
+        *A=x;
+        cout<<*A;
+    }
+    a(a &obj){
+        A=new int;
+        *A=*obj.A;
+        cout<<*A;
+    }
+};
+int main() {
+   a obj(10);
+   a obj1=obj;
 }
 
 
