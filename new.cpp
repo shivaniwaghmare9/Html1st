@@ -1531,6 +1531,25 @@ int main() {
 }
 
 
+                        //================POLYMORPHISM==========================
+
+                        
+// Online C++ compiler to run C++ program online
+//================[COMPILE TIME(function overloading)]================
+#include <iostream>
+using namespace std;
+void show(int a){
+    cout<<a<<endl;
+}
+void show(int a,int b){
+    cout<<a+b;
+}
+int main() {
+   show(10);
+   show(10,11);
+}
+
+
 
 
   
