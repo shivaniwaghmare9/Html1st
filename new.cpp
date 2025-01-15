@@ -1031,6 +1031,40 @@ int main() {
      obj2.display();
    
 }
+// Online C++ compiler to run C++ program online/
+////================default copy constructor====================
+#include <iostream>
+using namespace std;
+class A{
+    public:int a;
+    public :A(int x){
+        a=x;
+        cout<<a;
+    }
+};
+int main() {
+    A obj(10);
+}
+// Online C++ compiler to run C++ program online/
+////================user defiend copy constructor====================
+#include <iostream>
+using namespace std;
+class A{
+    public:int a;
+    public :A(int x){
+        a=x;
+        cout<<a;
+    }
+    public:A(A &obj){
+        a=obj.a;
+        cout<<a;
+    }
+};
+int main() {
+    A obj(10);
+    A obj1(obj);
+    //cout<<obj.a;
+}
 //===============TYPE OF COPY CONSTRUCTOR================
 ///*SHALLOW COPY 
 ///*DEEP COPY
