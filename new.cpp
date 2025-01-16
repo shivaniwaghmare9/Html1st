@@ -1551,24 +1551,67 @@ int main() {
 
 // Online C++ compiler to run C++ program online
 //===================[COMPILE TIME oprator overloading]========================
+// Online C++ compiler to run C++ program online
+//=================OPERATOR OVERLOADING(BASIC)================
 #include <iostream>
 using namespace std;
-class a{
-    public:int *A;
-    a(int x){
-        A=new int;
-        *A=x;
-        cout<<*A;
-    }
-    a(a &obj){
-        A=new int;
-        *A=*obj.A;
-        cout<<*A;
+class us{
+    public:int value;
+    public:us(int x){
+        value=x;
+        cout<<value;
     }
 };
 int main() {
-   a obj(10);
-   a obj1=obj;
+    us obj1(10);                 //output=1011
+    us ob2(11);
+}
+
+// Online C++ compiler to run C++ program online
+//=================OPERATOR OVERLOADING================
+#include <iostream>
+using namespace std;
+class us{
+    public:int value;
+    public:us(int x=0){
+        value=x;
+      
+    }
+    us add(us obj){
+        us objs;
+        objs.value=value+obj.value;
+        return objs;
+    }
+};
+int main() {
+    us obj1(10);
+    us obj2(11);
+    us obj3;
+    obj3=obj1.add(obj2);                //output=21
+    cout<<obj3.value;
+}
+// Online C++ compiler to run C++ program online
+//=================OPERATOR OVERLOADING(use +operator)================
+#include <iostream>
+using namespace std;
+class us{
+    public:int value;
+    public:us(int x=0){
+        value=x;
+      
+    }
+    us operator +(us obj){
+        us objs;
+        objs.value=value+obj.value;
+        return objs;
+    }
+};
+int main() {
+    us obj1(10);
+    us obj2(11);
+    us obj3;
+    obj3=obj1+(obj2);                      //output=21
+    cout<<obj3.value;
 }
 
 
