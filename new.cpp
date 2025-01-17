@@ -939,7 +939,7 @@ int main() {
 //#TYPES
 //* DEFAULT CONSTRUCTOR
 ///*PARAMETERIZED CONSTRUCTOR
-//*COPY CONSTRUCTOR
+//*COPY CONSTRUCTOR    .shallow  ..deeep
 //*DYNAMIC CONSTRUCTOR
 // Online C++ compiler to run C++ program online
 
@@ -1474,7 +1474,7 @@ int main() {
 
 }
 // Online C++ compiler to run C++ program online
-//=================== diamond problem[hybrid inheritance]=================
+//===================DIAMOND PROBLEM[hybrid inheritance]=================
 #include <iostream>
 using namespace std;
 class A{
@@ -1537,7 +1537,7 @@ int main() {
 //        #FUNCTION OVERLOADING,
 //        #OPERATOR OVERLOADING
 //*RUN TIME__
-//        #FUNCTION OVERRIDING(OPERATOR)
+//        #FUNCTION OVERRIDING(OBJECT)
 
 // Online C++ compiler to run C++ program online
 //================[COMPILE TIME(function overloading)]================
