@@ -1532,7 +1532,12 @@ int main() {
 
 
                         //================POLYMORPHISM==========================
-
+//types of polymorphism
+//*COMPILE TIME__
+//        #FUNCTION OVERLOADING,
+//        #OPERATOR OVERLOADING
+//*RUN TIME__
+//        #FUNCTION OVERRIDING(OPERATOR)
 
 // Online C++ compiler to run C++ program online
 //================[COMPILE TIME(function overloading)]================
@@ -1564,7 +1569,7 @@ class us{
 };
 int main() {
     us obj1(10);                 //output=1011
-    us ob2(11);
+    us obj2(11);
 }
 
 // Online C++ compiler to run C++ program online
@@ -1613,8 +1618,124 @@ int main() {
     obj3=obj1+(obj2);                      //output=21
     cout<<obj3.value;
 }
+// Online C++ compiler to run C++ program online
+          //=================RUN TIME POLYMORPHISM================
+#include <iostream>
+using namespace std;
+class A{
+    public: virtual void show(){  //remove the virtual output-parent
+        cout<<"parent";
+    }
+};
+class B:public A{
+    public:void show(){
+        cout<<"child";
+    }
+};
+int main() {
+   A *obj=new B();
+   obj->show();                  //output=child
+}
 
 
+                       //=================ABSTRACTION====================================
+
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+class A{
+ public: virtual void show()=0;//neccessary, here 0 is pure virtual function 
+    //int=10;     //unneccessary
+};
+class B:public A{
+    public:void show(){
+        cout<<"child"<<endl;
+    }
+};
+class C:public A{
+    public:void show(){
+        cout<<"child1";
+    }
+};
+int main() {
+   // B obj;
+   // obj.show();
+   //  C obj1;                      //output=childchild1
+   // obj1.show();
+   A *obj=new C();
+   obj->show();
+
+   
+}
+
+// Online C++ compiler to run C++ program online
+//========================ENCAPSULATION=========================
+#include <iostream>
+using namespace std;
+class A{
+    int a,b;
+   public: 
+   void add(int x,int y) {
+       a=x;
+       b=y;
+       cout<<a+b;
+       
+   }
+};
+int main() {
+   A obj;                            //OUTPUT=14
+   obj.add(8,6);
+}
+
+// Online C++ compiler to run C++ program online
+//========================THIS->(KEYWORD)=========================
+#include <iostream>
+using namespace std;
+class A{
+    public:int a;
+   public: A(int a){
+       this->a=a;
+       cout<<this->a<<endl;
+   }
+   
+};
+int main() {
+   A obj(10);                            //OUTPUT=1010
+   cout<<obj.a;
+}
+
+// Online C++ compiler to run C++ program online
+                              //========================STATIC(KEYWORD)=========================
+#include <iostream>
+using namespace std;
+class A{
+    public:static void show(){
+        cout<<"shivani waghmare";
+    }
+   
+};
+int main() {                          //OUTPUT=SHIVANI WAGHMARE
+  A::show();
+}
+
+// Online C++ compiler to run C++ program online
+//========================STATIC(KEYWORD)=========================
+#include <iostream>
+using namespace std;
+class A{
+    public:static void show(){
+        cout<<"shivani waghmare"<<endl;
+    }
+    public:static int a;
+     
+   
+};
+int A::a=10;
+
+int main() {                          //OUTPUT=SHIVANI WAGHMARE 10
+  A::show();
+  cout<<A::a;
+}
 
 
   
