@@ -280,7 +280,7 @@
         font-size: 20px;
         transition: all 2s ease;
         margin-right: 25px;
-        color: brown;
+        color: rgb(247, 243, 243);
     }
     #top h2:hover{
         color:darkcyan;

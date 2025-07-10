@@ -3,7 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: "Oleo Script", system-ui;
-   scroll-behavior: smooth;
+    scroll-behavior: smooth;
 
 }
 /*=======[HEADER STARTS HERE]=====*/
@@ -205,6 +205,7 @@
     transition: all 3s ease;
     background-color: crimson;
     border-radius: 100px;
+   
    
 
 }

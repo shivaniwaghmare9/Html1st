@@ -151,9 +151,6 @@
     height: auto;
   /*  border: 1px solid black;*/
     font-size: 20px;
-    
-  
-   
 }
 #new-arrivals .product{
     display: grid;
@@ -582,7 +579,7 @@
         padding: 20px;
         border-radius: 10px;
         background-color: aliceblue;
-         line-height: 5%;
+        line-height: 5%;
          
 
     }

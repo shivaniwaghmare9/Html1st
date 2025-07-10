@@ -46,9 +46,6 @@
     gap: 20px;
     font-size: 40px;
    
-   
-    
-    
 }
 #top nav ul li{
     display: flex;
@@ -80,7 +77,7 @@
     transition: all 2s ease;
 }
 #top h2:hover{
-    color: brown;
+    color: rgb(176, 53, 53);
     
  }
 /*------header section end-----*/
@@ -236,9 +233,9 @@
     }
    
     #top h2{
-        font-size: 10px;
+        font-size: 20px;
         margin-right: 25px;
-        color: darkred;
+        color: rgb(230, 219, 219);
     }
     #top nav ul{
         font-size: 10px;
